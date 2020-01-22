@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="obucavanje za misiju" directorySegmentName="seg_0" id="AB2B4679-0445-F55D-6316-AE215F840E6B">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 23:45:15 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<targetPk>A2B6C546-1A47-F4F3-41B1-D75E7762B534</targetPk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1E1F16D2-AFD6-FDDE-6B0A-7C4088B75F33</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2A4D0A7F-F952-C25C-FFE1-5CB24EC71AE0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

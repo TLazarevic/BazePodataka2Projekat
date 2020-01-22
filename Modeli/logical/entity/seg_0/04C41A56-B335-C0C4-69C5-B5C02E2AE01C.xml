@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="04C41A56-B335-C0C4-69C5-B5C02E2AE01C" name="Zaposleni">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 21:01:03 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ZapIme" id="ADDA1A29-E0E2-7A28-ECE3-3CAEF47374A3">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 21:05:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ime zaposlenog]]></commentInRDBMS>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ZapZan" id="FB8BBD89-1F9B-9074-B748-86D66738296C">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 21:06:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Zanimanje zaposlenog]]></commentInRDBMS>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ZapPrez" id="F74F0757-3E74-82C3-1725-53E1A88392DF">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 21:07:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Prezime zaposlenog]]></commentInRDBMS>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ZapId" id="3B8CA77A-EF1D-B14E-2D28-7EE295040C32">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 21:08:17 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPId" id="B8663BD4-1B8B-39AB-0B3A-E492D36DA2F0">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 00:43:21 UTC</createdTime>
+<generatorID>E7E4EB5F-F7AC-AC30-65F1-C03B9E98867A</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<referedAttribute>792407CD-49F3-BCDD-048E-58393762A020</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="196CFFED-CB8D-EE85-91D2-04F9E9761E21" name="Zaposleni PK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 21:09:23 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3B8CA77A-EF1D-B14E-2D28-7EE295040C32</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

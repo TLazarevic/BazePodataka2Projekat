@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="nalazi se" directorySegmentName="seg_0" id="D05EB84F-BD52-BF1F-A056-74FDB3CBBDDC">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 22:23:42 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<targetPk>9925DCC5-D86C-ADB7-AEF3-D9AC9E95166E</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B3F46245-C002-B034-D841-DC3CB81226BE</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3A416325-0D0B-9DA5-F192-7F1BCBC090D2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

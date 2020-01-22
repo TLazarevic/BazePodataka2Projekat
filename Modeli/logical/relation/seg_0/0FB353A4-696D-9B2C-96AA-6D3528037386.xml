@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="polece" directorySegmentName="seg_0" id="0FB353A4-696D-9B2C-96AA-6D3528037386">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 22:32:22 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>EFB26620-5333-F18C-52DB-DECBFEB0AF84</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>57AFD710-94C4-255E-E2BF-3FD439B603BF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

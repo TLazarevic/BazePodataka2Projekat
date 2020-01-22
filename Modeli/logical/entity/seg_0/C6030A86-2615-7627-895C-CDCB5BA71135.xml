@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C6030A86-2615-7627-895C-CDCB5BA71135" name="Strana agencija">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 21:50:42 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="AgId" id="DF81E989-EDE6-8CC1-62AF-90412295E94C">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 21:51:11 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AgNaziv" id="EA722CCB-CCD9-559B-0FF0-D4E9993D7833">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 21:51:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Naziv strane agencije]]></commentInRDBMS>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DId" id="B05C07E6-D833-80D7-EA6B-062D30BF6869">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 22:38:45 UTC</createdTime>
+<generatorID>13E33A53-610C-B5BF-63D8-534B61A22297</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5A1EA939-3AC4-7645-A46D-2CB944B288C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="90471E6E-7C91-987D-2B91-76BB014AEA9E" name="Strana agencija PK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 21:51:32 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DF81E989-EDE6-8CC1-62AF-90412295E94C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

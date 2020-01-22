@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="317E0290-B410-F5AE-3435-469EA7D1A556" name="Destinacija">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 21:41:51 UTC</createdTime>
+<generatorID>53D4A0C9-DBEE-4513-D44A-A2A20BF15563</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DeId" id="881AEF96-3A7B-E82B-C678-4429403FFCCE">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 21:41:51 UTC</createdTime>
+<generatorID>AA49303A-66B7-6F6E-1EE7-17AAEB16FC16</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DeNaz" id="45675832-8684-D0C3-226B-DC0C45AE2025">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 21:41:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Naziv destinacije]]></commentInRDBMS>
+<generatorID>8DD9B0EE-7C7C-A49C-58CF-5EA1DDD81E86</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="21A77A97-94C8-144C-35B3-6FBFCB6EFE28" name="Destinacija_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 21:41:51 UTC</createdTime>
+<generatorID>A1A1D4B8-9207-7CEF-EC75-9098AB8B5ED2</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="881AEF96-3A7B-E82B-C678-4429403FFCCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

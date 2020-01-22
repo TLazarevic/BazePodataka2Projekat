@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5AA35E1E-D2AF-2D2B-A79F-882890AEE06B" containerWithKeyObject="078D49DD-5C3C-E527-19BF-94E1992235C3" localFKIndex="4BE8E362-D1CA-2685-959C-B5090AEFFEF8" name="Rakete_sa_tipovima_sa_misijama_sa_tipovima_Misija_sa_tipom_misije_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 21:41:51 UTC</createdTime>
+<generatorID>9842B615-349F-2FC6-FE75-86881944DBFD</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<referredTableLongName>Misija_sa_tipom_misije</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>976B8F06-2CAE-FF20-2DD4-38066800BDEA</referredTableID>
+<keyObject>F0C7A428-C1C4-959A-9089-DF8B27DD3934</keyObject>
+<referredKeyID>F0C7A428-C1C4-959A-9089-DF8B27DD3934</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Tip_misije_TMId,Misija_MId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

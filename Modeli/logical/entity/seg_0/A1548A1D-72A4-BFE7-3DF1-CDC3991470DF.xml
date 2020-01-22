@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1548A1D-72A4-BFE7-3DF1-CDC3991470DF" name="Piloti koji voze tipove raketa">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 23:43:30 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TRId" id="F9FD557A-E4B8-1DE0-890F-D8AEC4E51342">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 21:41:22 UTC</createdTime>
+<generatorID>311B4F58-2972-BD48-1998-2FE994AA484B</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<referedAttribute>9C5FF86E-4357-71EA-9D6D-1B2304CE54DC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ZapId" id="0BB66BDC-D58C-3EE8-7F6C-C8404C2C194E">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 21:41:34 UTC</createdTime>
+<generatorID>C8DE4186-BBD8-8235-C991-AEE4687D13DC</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<referedAttribute>3B8CA77A-EF1D-B14E-2D28-7EE295040C32</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="230CB47D-4059-186C-1E41-668256158697" name="Piloti koji voze tipove raketa PK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 21:41:39 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F9FD557A-E4B8-1DE0-890F-D8AEC4E51342</attributeRef>
+<attributeRef>0BB66BDC-D58C-3EE8-7F6C-C8404C2C194E</attributeRef>
+<attributeRef>F9FD557A-E4B8-1DE0-890F-D8AEC4E51342</attributeRef>
+<attributeRef>0BB66BDC-D58C-3EE8-7F6C-C8404C2C194E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

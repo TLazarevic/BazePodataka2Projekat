@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="obuka astronauta" directorySegmentName="seg_0" id="2B3B1097-3C70-238C-3306-0371D1CA8E47">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 23:45:01 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<sourcePk>196CFFED-CB8D-EE85-91D2-04F9E9761E21</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3423D782-E624-DB63-1D98-8E4F9BBE9130</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1E1F16D2-AFD6-FDDE-6B0A-7C4088B75F33</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

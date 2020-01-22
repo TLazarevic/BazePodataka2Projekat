@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="vozi" directorySegmentName="seg_0" id="C8DE4186-BBD8-8235-C991-AEE4687D13DC">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 23:44:23 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<sourcePk>196CFFED-CB8D-EE85-91D2-04F9E9761E21</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1304FD3D-0A75-D399-4E13-ED2E56250056</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A1548A1D-72A4-BFE7-3DF1-CDC3991470DF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

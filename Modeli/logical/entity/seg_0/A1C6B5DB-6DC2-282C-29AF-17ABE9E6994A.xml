@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1C6B5DB-6DC2-282C-29AF-17ABE9E6994A" name="Astronaut ucesnik misije">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 23:46:36 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MId" id="D97EB98A-D9E4-B696-682F-D8057397AF1F">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 21:03:36 UTC</createdTime>
+<generatorID>1A72176A-5E4F-FBE5-3521-52E406139545</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B951C188-D223-E68A-2C7F-338735962C41</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ZapId" id="E65E8043-CDD7-7130-2412-0AB139A8691A">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 21:05:01 UTC</createdTime>
+<generatorID>686A38FB-1A8B-26CC-C4A5-52E66B928CAB</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>BD1FBBDB-868B-B8F9-6FC6-E9855F4F71F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TMId" id="DFB93EE1-3B77-D05F-8ABC-88560BD1A917">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 21:05:03 UTC</createdTime>
+<generatorID>686A38FB-1A8B-26CC-C4A5-52E66B928CAB</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CAF29AD4-63BB-220B-BFBA-A7EB6C2B3FA1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

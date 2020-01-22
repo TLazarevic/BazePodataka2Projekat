@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B3F46245-C002-B034-D841-DC3CB81226BE" name="Centri i postrojenja">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 21:13:57 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CPId" id="792407CD-49F3-BCDD-048E-58393762A020">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 21:14:47 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPAdr" id="8C1033AE-977F-A043-98C8-064209556BA3">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 21:15:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Adresa centra ili postrojenja]]></commentInRDBMS>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPTel" id="E99B02FF-72D1-7B9E-C7E5-2BB60D21CE3F">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 21:15:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Telefon centra ili postrojenja]]></commentInRDBMS>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GRId" id="DB6958C6-4ABE-3221-F71F-4FCD209874B9">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 22:23:58 UTC</createdTime>
+<generatorID>D05EB84F-BD52-BF1F-A056-74FDB3CBBDDC</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A545F024-E7C2-A562-E409-7E55584DDC1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8A5EDA59-9960-8BC4-D7A3-E9A0C364140C" name="Centri i postrojenja PK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 22:26:13 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>792407CD-49F3-BCDD-048E-58393762A020</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E1F16D2-AFD6-FDDE-6B0A-7C4088B75F33" name="Astronauti obuceni za tip misije">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 23:44:43 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ZapId" id="BD1FBBDB-868B-B8F9-6FC6-E9855F4F71F1">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 20:42:07 UTC</createdTime>
+<generatorID>2B3B1097-3C70-238C-3306-0371D1CA8E47</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<referedAttribute>3B8CA77A-EF1D-B14E-2D28-7EE295040C32</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TMId" id="CAF29AD4-63BB-220B-BFBA-A7EB6C2B3FA1">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 20:42:14 UTC</createdTime>
+<generatorID>AB2B4679-0445-F55D-6316-AE215F840E6B</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<referedAttribute>EE12D151-5E62-0A30-66E3-938C761FF85D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EC89C3AC-A8E8-5CAF-577D-D59B48952CA5" name="Astronauti obuceni za tip misije PK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 21:05:01 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BD1FBBDB-868B-B8F9-6FC6-E9855F4F71F1</attributeRef>
+<attributeRef>CAF29AD4-63BB-220B-BFBA-A7EB6C2B3FA1</attributeRef>
+<attributeRef>BD1FBBDB-868B-B8F9-6FC6-E9855F4F71F1</attributeRef>
+<attributeRef>CAF29AD4-63BB-220B-BFBA-A7EB6C2B3FA1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

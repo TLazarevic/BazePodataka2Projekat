@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="57AFD710-94C4-255E-E2BF-3FD439B603BF" name="Misija">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 21:27:58 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MId" id="B951C188-D223-E68A-2C7F-338735962C41">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 21:28:28 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MAkr" id="E630A48F-CDE6-B603-49CF-28000AA368DD">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 21:28:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Akronim misije]]></commentInRDBMS>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MStat" id="A6917CAE-4CA2-07F7-04C0-7D8D4BFF730C">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 21:29:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Status misije]]></commentInRDBMS>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MDatPol" id="595D7260-3DB3-D823-3E1D-797AD065E536">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 21:31:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Datum poletanja misije]]></commentInRDBMS>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MBu" id="206DEA04-382A-D747-280C-E3A576F0A0AA">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 21:34:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Budzet misije]]></commentInRDBMS>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MRez" id="2A741045-4243-9178-DDB0-1E1284A607A0">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 21:36:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Rezultat misije]]></commentInRDBMS>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPId" id="C3FBB593-06CE-6B7C-7F56-2686FC28A8A4">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 23:11:52 UTC</createdTime>
+<generatorID>E8DABBE8-E047-A68D-689A-414029CFD89D</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<referedAttribute>792407CD-49F3-BCDD-048E-58393762A020</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="566EAE98-D5B5-51A1-5C1E-448734F999E8" name="Misija PK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 22:38:31 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B951C188-D223-E68A-2C7F-338735962C41</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

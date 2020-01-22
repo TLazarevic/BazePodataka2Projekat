@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modeli" id="FF25D132-C286-C045-3010-09F018249F4B" version="3.5">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 18:24:10 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FF25D132-C286-C045-3010-09F018249F4B</designId>
+</OSDM_Design>

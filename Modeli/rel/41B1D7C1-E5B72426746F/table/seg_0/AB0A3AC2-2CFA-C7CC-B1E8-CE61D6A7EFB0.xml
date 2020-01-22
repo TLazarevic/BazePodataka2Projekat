@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB0A3AC2-2CFA-C7CC-B1E8-CE61D6A7EFB0" name="Astronauti_obuceni_za_tip_misije">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 21:41:51 UTC</createdTime>
+<generatorID>1E1F16D2-AFD6-FDDE-6B0A-7C4088B75F33</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Astronaut_ZapId" id="A292AA0A-103A-3DA5-130D-F64C949C1CC9">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 21:41:51 UTC</createdTime>
+<generatorID>BD1FBBDB-868B-B8F9-6FC6-E9855F4F71F1</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36609451-83A9-529D-C4C4-9BCFEE663F5C" referredColumn="BD7C1E5F-9887-1F4C-F4EC-D69DCC884809"/>
+</associations>
+</Column>
+<Column name="Tip_misije_TMId" id="BF0AF06C-5A84-C479-D089-3FF996DA06EA">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 21:41:51 UTC</createdTime>
+<generatorID>CAF29AD4-63BB-220B-BFBA-A7EB6C2B3FA1</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5158E1D-649C-C342-1294-A9C89AE5104F" referredColumn="B8B7353C-D55C-7B7E-03F6-30CA65EEAB9C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C273007B-A4A4-9643-79AE-32F88A44AEA7" name="Astronauti_obuceni_za_tip_misije_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 21:41:51 UTC</createdTime>
+<generatorID>EC89C3AC-A8E8-5CAF-577D-D59B48952CA5</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A292AA0A-103A-3DA5-130D-F64C949C1CC9"/>
+<colUsage columnID="BF0AF06C-5A84-C479-D089-3FF996DA06EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72242F03-00AF-053B-96EB-850DF995424E" name="Astronauti_obuceni_za_tip_misije_Tip_misije_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 21:41:51 UTC</createdTime>
+<generatorID>AB2B4679-0445-F55D-6316-AE215F840E6B</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF0AF06C-5A84-C479-D089-3FF996DA06EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B9D82D4-A4EB-B9CE-46A3-4C443EC88C9A" name="Astronauti_obuceni_za_tip_misije_Astronaut_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 21:41:51 UTC</createdTime>
+<generatorID>2B3B1097-3C70-238C-3306-0371D1CA8E47</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A292AA0A-103A-3DA5-130D-F64C949C1CC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

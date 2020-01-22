@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="leti na" directorySegmentName="seg_0" id="0DA90841-E101-DC44-51A6-66038B908323">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 22:14:15 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>57AFD710-94C4-255E-E2BF-3FD439B603BF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>53D4A0C9-DBEE-4513-D44A-A2A20BF15563</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7B39E19C-895F-CC3A-92C6-9AE21F76BF6E" containerWithKeyObject="E5E658FE-51B4-F107-163A-C0256893958F" localFKIndex="E626E718-370C-1CA1-46F2-66879D2FA247" name="Grad_Drzava_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 21:41:51 UTC</createdTime>
+<generatorID>1143C41D-CC4B-D595-832D-3A8C3DD246EB</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<referredTableLongName>Drzava</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>25C6AF28-E80D-93D4-22D4-E8DE9F1067F3</referredTableID>
+<keyObject>489B61EF-AA72-D48C-23A3-F2A31245141B</keyObject>
+<referredKeyID>489B61EF-AA72-D48C-23A3-F2A31245141B</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>DId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

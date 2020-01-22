@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CBACF400-899C-803F-FCD3-6344A3A0B97F" name="Misija sa tipom misije">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 23:25:18 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TMId" id="1C402682-6A70-5EAC-1147-3464338CE194">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 20:49:45 UTC</createdTime>
+<generatorID>BC223972-4746-5C81-7D56-9A37521B29F1</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<referedAttribute>EE12D151-5E62-0A30-66E3-938C761FF85D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MId" id="4432F7C6-0049-2A6B-91D3-351B008C8404">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 20:49:52 UTC</createdTime>
+<generatorID>82CFD766-CDEC-BE50-BDFC-864D4062289E</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<referedAttribute>B951C188-D223-E68A-2C7F-338735962C41</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A0A18903-B5D7-6C46-A95D-9020C32D108C" name="Misija sa tipom misije PK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 21:05:25 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1C402682-6A70-5EAC-1147-3464338CE194</attributeRef>
+<attributeRef>4432F7C6-0049-2A6B-91D3-351B008C8404</attributeRef>
+<attributeRef>1C402682-6A70-5EAC-1147-3464338CE194</attributeRef>
+<attributeRef>4432F7C6-0049-2A6B-91D3-351B008C8404</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

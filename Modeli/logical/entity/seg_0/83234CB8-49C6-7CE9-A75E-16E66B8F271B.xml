@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="83234CB8-49C6-7CE9-A75E-16E66B8F271B" name="Raketa">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 21:38:43 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RaId" id="43EA8B94-1B3F-CCF1-49B6-431F645E0CD9">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 21:39:33 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RaDatPro" id="8F46EB33-8A4F-12A6-148E-FD4D73FE083E">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 22:46:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Datum proizvodnje rakete]]></commentInRDBMS>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="262FE5DD-610C-C5D0-CC47-0B09ACCAD757" name="Raketa PK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-20 22:30:02 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>43EA8B94-1B3F-CCF1-49B6-431F645E0CD9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A1B73CC-1824-B595-52EC-3063BD9ADAA4" name="Raketa">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 21:41:51 UTC</createdTime>
+<generatorID>83234CB8-49C6-7CE9-A75E-16E66B8F271B</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RaId" id="E6D9B055-7BD1-33B8-E426-B54BE1D3B256">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 21:41:51 UTC</createdTime>
+<generatorID>43EA8B94-1B3F-CCF1-49B6-431F645E0CD9</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RaDatPro" id="E0E5A913-C840-9CFE-1FE0-C37D1CF23649">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 21:41:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Datum proizvodnje rakete]]></commentInRDBMS>
+<generatorID>8F46EB33-8A4F-12A6-148E-FD4D73FE083E</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9EF5B3BE-BBA2-F692-DF91-5F21CA69F144" name="Raketa_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-21 21:41:51 UTC</createdTime>
+<generatorID>262FE5DD-610C-C5D0-CC47-0B09ACCAD757</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6D9B055-7BD1-33B8-E426-B54BE1D3B256"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
