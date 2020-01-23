@@ -6,7 +6,6 @@
 <engineerTo>
 <item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
 </engineerTo>
-<targetPk>8A5EDA59-9960-8BC4-D7A3-E9A0C364140C</targetPk>
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>true</optionalTarget>

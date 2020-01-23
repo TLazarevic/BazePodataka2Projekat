@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6EA40511-F31E-8F09-56A5-E7FA7551730B" name="Pista">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<generatorID>EFB26620-5333-F18C-52DB-DECBFEB0AF84</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PId" id="4CCA484D-846B-F830-8004-1D4A03595B90">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<generatorID>5051139A-A197-5913-CB6B-C1BF394CBBD8</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPId" id="CD512730-BDF8-CC7A-0870-95B91B130724">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<generatorID>CE6B1941-54AB-240D-413D-58CB7FF1E6C9</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52B3C03A-A0ED-B478-BABE-1D52DCE4A92B" referredColumn="7995389A-D1FE-3816-C161-920165A0A049"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19BA0EE5-33F1-8433-50C1-77A8961F702E" name="Pista_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<generatorID>C54E5034-59E7-43C3-4848-D51FD556FA5C</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CCA484D-846B-F830-8004-1D4A03595B90"/>
+<colUsage columnID="CD512730-BDF8-CC7A-0870-95B91B130724"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61CF1360-D6D2-C969-EF26-F590024922A2" name="Pista_Centri_i_postrojenja_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<generatorID>E80A6720-75C5-3AB2-DE57-F5CCA08B944C</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD512730-BDF8-CC7A-0870-95B91B130724"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

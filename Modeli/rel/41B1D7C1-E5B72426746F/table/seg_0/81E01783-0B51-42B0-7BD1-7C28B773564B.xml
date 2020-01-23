@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81E01783-0B51-42B0-7BD1-7C28B773564B" name="Gorivo">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<generatorID>A499AD59-B252-EF13-7CBD-FDFB4094D809</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GId" id="FD739B10-5BBF-7906-AF76-10BC8E4D6D76">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<generatorID>ADEDA9F8-447B-35A7-43BF-F2FAED085B2B</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GNaz" id="BAFA17B9-EEAE-C877-549F-FF2B9C87AD7A">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<generatorID>01BC35B8-9B01-C62C-D0BA-C6D000ACADF0</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GCena" id="B0CA3002-19AB-0A27-2688-D80679EA330B">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cena goriva]]></commentInRDBMS>
+<generatorID>A232997B-BA6B-4CEE-B078-AE7DD27EDEBA</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9CF30CF4-AB62-40E5-F4FB-4D60C91F4720" name="Gorivo_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<generatorID>53326C75-6B35-BF27-B9BB-5CD23B901AD1</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD739B10-5BBF-7906-AF76-10BC8E4D6D76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

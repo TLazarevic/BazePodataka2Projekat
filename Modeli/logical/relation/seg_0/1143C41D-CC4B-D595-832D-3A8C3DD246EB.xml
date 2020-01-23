@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_22" directorySegmentName="seg_0" id="1143C41D-CC4B-D595-832D-3A8C3DD246EB">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pripada" directorySegmentName="seg_0" id="1143C41D-CC4B-D595-832D-3A8C3DD246EB">
 <createdBy>DELL</createdBy>
 <createdTime>2020-01-20 22:22:12 UTC</createdTime>
 <ownerDesignName>Modeli</ownerDesignName>

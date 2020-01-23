@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="26BC93B3-8820-D54A-04A3-1C6CB3126685" containerWithKeyObject="089FCC68-E3E3-2DDE-5A59-BE551BCCE27C" localFKIndex="E7A91A54-8C7D-42EC-40AF-D2AD5CAE4421" name="Astronaut_Strana_agencija_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<generatorID>9B4A536F-685A-2664-C332-76FE10962C28</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<referredTableLongName>Strana_agencija</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>21D03FB3-E5F9-CA25-6828-83162F2118F5</referredTableID>
+<keyObject>5C868C24-884D-8512-9575-0D6D5B238299</keyObject>
+<referredKeyID>5C868C24-884D-8512-9575-0D6D5B238299</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>AgId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

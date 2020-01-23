@@ -54,10 +54,10 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="MDatPol" id="595D7260-3DB3-D823-3E1D-797AD065E536">
+<Attribute name="MDatPoc" id="595D7260-3DB3-D823-3E1D-797AD065E536">
 <createdBy>DELL</createdBy>
 <createdTime>2020-01-20 21:31:18 UTC</createdTime>
-<commentInRDBMS><![CDATA[Datum poletanja misije]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Datum pocetka misije]]></commentInRDBMS>
 <ownerDesignName>Modeli</ownerDesignName>
 <engineerTo>
 <item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
@@ -107,6 +107,20 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MDatZav" id="04E5B500-3F9F-464F-B421-14B0390E812D">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 14:51:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Datum zavrsetka misije]]></commentInRDBMS>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

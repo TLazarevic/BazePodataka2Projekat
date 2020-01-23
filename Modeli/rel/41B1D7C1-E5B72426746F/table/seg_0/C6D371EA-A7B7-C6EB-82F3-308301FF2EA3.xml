@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6D371EA-A7B7-C6EB-82F3-308301FF2EA3" name="Astronaut_ucesnik_misije">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<generatorID>A1C6B5DB-6DC2-282C-29AF-17ABE9E6994A</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TMId" id="13EEF158-7C40-5853-0A33-A88C3483C59D">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<generatorID>DFB93EE1-3B77-D05F-8ABC-88560BD1A917</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97171C79-FE9E-ABE0-B2EC-CFAEA9764056" referredColumn="3DB5DF28-94CA-F227-3DBD-8B00432B3C71"/>
+</associations>
+</Column>
+<Column name="ZapId" id="BDF28399-801E-46C9-30C2-5BAACEAE5971">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<generatorID>992273C3-C9F7-4D71-52DC-ED6401636F48</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97171C79-FE9E-ABE0-B2EC-CFAEA9764056" referredColumn="CD747059-2616-91CE-AA41-DE33E2B0119D"/>
+</associations>
+</Column>
+<Column name="MId" id="5715F1AC-B7D9-A4A7-C3A3-2956687DCFE2">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<generatorID>AB5D0FC4-D51E-99F2-4FE8-D53E8CC74E24</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="802054B9-DC0A-032F-1E70-5F5895793668" referredColumn="5EBE9AEE-3710-B05E-10F5-2F3338873595"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C1C9534-AAC7-73B4-017A-EE9C2193A4E9" name="Astronaut_ucesnik_misije_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<generatorID>030E2F46-C627-B5DE-C223-F433417436B5</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13EEF158-7C40-5853-0A33-A88C3483C59D"/>
+<colUsage columnID="BDF28399-801E-46C9-30C2-5BAACEAE5971"/>
+<colUsage columnID="5715F1AC-B7D9-A4A7-C3A3-2956687DCFE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A82991B-83AB-9E16-D904-869E67541E9C" name="Astronaut_ucesnik_misije_Astronauti_obuceni_za_tip_misije_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<generatorID>686A38FB-1A8B-26CC-C4A5-52E66B928CAB</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13EEF158-7C40-5853-0A33-A88C3483C59D"/>
+<colUsage columnID="BDF28399-801E-46C9-30C2-5BAACEAE5971"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE3BE768-76EC-CF10-153E-5AEABC235953" name="Astronaut_ucesnik_misije_Misija_sa_tipom_misije_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<generatorID>D69E7062-BA0C-991A-84CE-66FCA79333CA</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5715F1AC-B7D9-A4A7-C3A3-2956687DCFE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -88,13 +88,13 @@ CREATE TABLE Pilot
 CREATE TABLE TipMisije 
 	(
 	 TMNaz varchar(30) not null,
-	 TMId number not null,
+	 TMId integer not null,
 	CONSTRAINT TIPMISIJE_PK PRIMARY KEY(TMId)
 );
 
 CREATE TABLE TipRakete 
 	(
-	 TRId number not null,
+	 TRId integer not null,
 	 TRNaz varchar(30) not null,
 	 TRPonIs varchar(20) not null,
 	 TRCena decimal (20,2) not null,
@@ -104,9 +104,9 @@ CREATE TABLE TipRakete
 
 CREATE TABLE Raketa
 	(
-	 RaId number not null,
+	 RaId integer not null,
 	 RaDatPro date not null,
-	 TRId number not null,
+	 TRId integer not null,
 	CONSTRAINT RAKETA_PK PRIMARY KEY (RaId),
 	CONSTRAINT RAKETA_FK FOREIGN KEY (TRId) REFERENCES TipRakete (TRId)
 );
@@ -116,7 +116,8 @@ CREATE TABLE Misija
 	 MId number not null,
 	 MNaz varchar(30) not null,
 	 MStat varchar(20) not null,
-	 MDatPol date not null,
+	 MDatPoc date not null,
+	MDatZav date not null,
 	 MRez varchar(20) not null,
 	 MBu decimal (20,2) not null,
 	 MAkr varchar(20) not null,

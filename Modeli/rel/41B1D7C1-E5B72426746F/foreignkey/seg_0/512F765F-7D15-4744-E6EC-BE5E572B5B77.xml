@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="512F765F-7D15-4744-E6EC-BE5E572B5B77" containerWithKeyObject="8FE79875-1B9E-2AAB-6150-C4E1562AB66F" localFKIndex="61D84328-DB55-685B-E1E7-E213D8EADC1F" name="polece_Misija_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<generatorID>0FB353A4-696D-9B2C-96AA-6D3528037386</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<referredTableLongName>Misija</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>81BA355A-F190-63EC-486B-B48B89700564</referredTableID>
+<keyObject>F1A6E628-C236-526C-BF59-24B481E430B8</keyObject>
+<referredKeyID>F1A6E628-C236-526C-BF59-24B481E430B8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

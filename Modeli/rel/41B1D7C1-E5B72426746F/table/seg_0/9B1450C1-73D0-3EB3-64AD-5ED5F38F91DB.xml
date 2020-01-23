@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B1450C1-73D0-3EB3-64AD-5ED5F38F91DB" name="Zaposleni">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<generatorID>04C41A56-B335-C0C4-69C5-B5C02E2AE01C</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ZapIme" id="D7D9415A-0230-CBE8-92BE-EA7F4F32516E">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ime zaposlenog]]></commentInRDBMS>
+<generatorID>ADDA1A29-E0E2-7A28-ECE3-3CAEF47374A3</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZapZan" id="9DE148C4-73FE-43C4-C715-979A78790448">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Zanimanje zaposlenog]]></commentInRDBMS>
+<generatorID>FB8BBD89-1F9B-9074-B748-86D66738296C</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<constraintName>CH_INH_Zaposleni</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<listOfValues>
+<valueDef value="Astronaut" description="entity Astronaut"/>
+<valueDef value="Pilot" description="entity Pilot"/>
+<valueDef value="Zaposleni" description="entity Zaposleni"/>
+</listOfValues>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+<Column name="ZapPrez" id="5827A32D-4607-1EA4-7138-13B8EA5A682C">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Prezime zaposlenog]]></commentInRDBMS>
+<generatorID>F74F0757-3E74-82C3-1725-53E1A88392DF</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZapId" id="8C3E4DDE-90E7-0274-C648-05AE2C2F5DB8">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<generatorID>3B8CA77A-EF1D-B14E-2D28-7EE295040C32</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPId" id="48FBBD69-BD3A-AC42-A590-28316AEF7C45">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<generatorID>B8663BD4-1B8B-39AB-0B3A-E492D36DA2F0</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DE49FE2-5873-0280-1074-8AC5F234161E" referredColumn="7995389A-D1FE-3816-C161-920165A0A049"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E268EFC-4264-CE81-F248-CCA60A86CD3A" name="Zaposleni_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<generatorID>196CFFED-CB8D-EE85-91D2-04F9E9761E21</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C3E4DDE-90E7-0274-C648-05AE2C2F5DB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7933C9BC-DD67-A37A-0922-61D1DEC79457" name="Zaposleni_Centri_i_postrojenja_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-23 15:36:54 UTC</createdTime>
+<generatorID>E7E4EB5F-F7AC-AC30-65F1-C03B9E98867A</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48FBBD69-BD3A-AC42-A590-28316AEF7C45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
