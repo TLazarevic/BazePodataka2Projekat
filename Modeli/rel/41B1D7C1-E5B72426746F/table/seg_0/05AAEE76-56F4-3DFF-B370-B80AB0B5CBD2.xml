@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05AAEE76-56F4-3DFF-B370-B80AB0B5CBD2" name="Pilot">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-22 23:58:37 UTC</createdTime>
+<generatorID>1304FD3D-0A75-D399-4E13-ED2E56250056</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ZapId" id="8E07AE82-2811-6BA7-0258-C69B43DB2F3A">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-22 23:58:37 UTC</createdTime>
+<generatorID>3B8CA77A-EF1D-B14E-2D28-7EE295040C32</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF5F1215-8B7F-487C-AE08-C60B11536F7B" referredColumn="832C1E5A-894E-8617-07F2-07EDFF28E132"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49D85328-C717-B934-8B55-DFEA5BF16D35" name="Pilot_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-22 23:58:37 UTC</createdTime>
+<generatorID>196CFFED-CB8D-EE85-91D2-04F9E9761E21</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E07AE82-2811-6BA7-0258-C69B43DB2F3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D4C1605-F2F7-7367-1415-3CE11B562341" name="Pilot_Zaposleni_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-22 23:58:37 UTC</createdTime>
+<generatorID>4784FB13-450B-BE97-96EB-411D1EFD54E8</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E07AE82-2811-6BA7-0258-C69B43DB2F3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

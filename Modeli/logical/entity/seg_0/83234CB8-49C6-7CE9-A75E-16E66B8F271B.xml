@@ -41,6 +41,20 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="TRId" id="023E5EE8-3216-41A8-BD5A-A6F4F0DFA8A7">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-22 21:06:44 UTC</createdTime>
+<generatorID>7BB80072-A838-C0A1-D1FF-B0D10B5D7C42</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<referedAttribute>9C5FF86E-4357-71EA-9D6D-1B2304CE54DC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="262FE5DD-610C-C5D0-CC47-0B09ACCAD757" name="Raketa PK">

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ucestvuje" directorySegmentName="seg_0" id="3F643814-F84B-B061-71BC-509620772EAA">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-22 21:11:50 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<sourcePk>030E2F46-C627-B5DE-C223-F433417436B5</sourcePk>
+<targetPk>A0A18903-B5D7-6C46-A95D-9020C32D108C</targetPk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>A1C6B5DB-6DC2-282C-29AF-17ABE9E6994A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>CBACF400-899C-803F-FCD3-6344A3A0B97F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

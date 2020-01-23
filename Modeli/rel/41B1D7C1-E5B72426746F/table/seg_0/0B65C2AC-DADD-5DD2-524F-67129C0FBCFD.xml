@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B65C2AC-DADD-5DD2-524F-67129C0FBCFD" name="polece">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-22 23:58:37 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PId" id="111EAE0B-7AF4-53BA-B770-844DE0BF928C">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-22 23:58:37 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="260D0504-83CE-8759-E89B-36AE07603C19" referredColumn="439E82E6-8E20-AC0B-3DA0-732E7FF16153"/>
+</associations>
+</Column>
+<Column name="CPId" id="D155C4A2-8B4A-A912-7800-6B6C568ECA9B">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-22 23:58:37 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="260D0504-83CE-8759-E89B-36AE07603C19" referredColumn="B424A2CB-9EBD-2DFA-D8A6-E8FF04C6A2AE"/>
+</associations>
+</Column>
+<Column name="MId" id="55EA8E6C-0BAD-2099-EDBA-7112418B35F1">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-22 23:58:37 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F185E315-DD7B-24EB-58BC-67C4F9F249CD" referredColumn="A653A565-C8A9-BE57-6406-50D7401B2A36"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E39B4A6-EB07-9C6D-A7E2-29CDCAE02E62" name="polece_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-22 23:58:37 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="111EAE0B-7AF4-53BA-B770-844DE0BF928C"/>
+<colUsage columnID="D155C4A2-8B4A-A912-7800-6B6C568ECA9B"/>
+<colUsage columnID="55EA8E6C-0BAD-2099-EDBA-7112418B35F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CC1F4C4-AB45-D200-7FFB-968CA172DB90" name="polece_Pista_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-22 23:58:37 UTC</createdTime>
+<generatorID>0FB353A4-696D-9B2C-96AA-6D3528037386</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="111EAE0B-7AF4-53BA-B770-844DE0BF928C"/>
+<colUsage columnID="D155C4A2-8B4A-A912-7800-6B6C568ECA9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02FB35CB-AA4E-2683-13C6-B2DDF2A8B11C" name="polece_Misija_FK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-22 23:58:37 UTC</createdTime>
+<generatorID>0FB353A4-696D-9B2C-96AA-6D3528037386</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55EA8E6C-0BAD-2099-EDBA-7112418B35F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

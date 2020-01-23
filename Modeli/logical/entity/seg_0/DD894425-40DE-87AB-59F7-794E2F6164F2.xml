@@ -15,65 +15,23 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="TRId" id="0BFCD4CC-8059-D53A-4802-271601291A96">
+<Attribute name="RaId" id="03B7DF54-4B51-37AC-0FD9-F316BA562889">
 <createdBy>DELL</createdBy>
-<createdTime>2020-01-21 21:05:12 UTC</createdTime>
-<generatorID>1F0F0A3C-D778-EA7C-B3D8-42DCC2C2DBB2</generatorID>
+<createdTime>2020-01-22 21:07:40 UTC</createdTime>
+<generatorID>2BE1F94C-D4A1-1296-5632-BD261D036B79</generatorID>
 <ownerDesignName>Modeli</ownerDesignName>
 <engineerTo>
 <item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
 </engineerTo>
-<referedAttribute>7E2BC948-933A-E679-7D59-D199266C0B45</referedAttribute>
+<referedAttribute>43EA8B94-1B3F-CCF1-49B6-431F645E0CD9</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TMId" id="836D0262-61F0-974F-EEBC-A511F4FCA1E5">
+<Attribute name="TMId1" id="7E42DFE6-C067-B1F3-A42F-5301DAD68CF7">
 <createdBy>DELL</createdBy>
-<createdTime>2020-01-21 21:05:14 UTC</createdTime>
-<generatorID>1F0F0A3C-D778-EA7C-B3D8-42DCC2C2DBB2</generatorID>
-<ownerDesignName>Modeli</ownerDesignName>
-<engineerTo>
-<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
-</engineerTo>
-<referedAttribute>B64DAC6D-4D67-7A8A-D836-4F2557E71DCE</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="RaId" id="5BA346AE-9D26-83A1-97BE-28A0DA14D462">
-<createdBy>DELL</createdBy>
-<createdTime>2020-01-21 21:05:19 UTC</createdTime>
-<generatorID>7EE6C9F8-1405-1497-9470-E732D2DAFA1D</generatorID>
-<ownerDesignName>Modeli</ownerDesignName>
-<engineerTo>
-<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
-</engineerTo>
-<referedAttribute>A7ED582B-562A-759A-F933-1E644A057DDD</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="TRId1" id="91771160-35E7-324C-7DDD-4B0598992E5E">
-<createdBy>DELL</createdBy>
-<createdTime>2020-01-21 21:05:20 UTC</createdTime>
-<generatorID>7EE6C9F8-1405-1497-9470-E732D2DAFA1D</generatorID>
-<ownerDesignName>Modeli</ownerDesignName>
-<engineerTo>
-<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
-</engineerTo>
-<referedAttribute>D4F20DAB-9CAD-06B6-7511-7D394BB530CE</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="TMId1" id="545FFF07-D40E-91E8-01AC-477BF121AEA7">
-<createdBy>DELL</createdBy>
-<createdTime>2020-01-21 21:05:26 UTC</createdTime>
+<createdTime>2020-01-22 21:12:36 UTC</createdTime>
 <generatorID>9842B615-349F-2FC6-FE75-86881944DBFD</generatorID>
 <ownerDesignName>Modeli</ownerDesignName>
 <engineerTo>
@@ -85,43 +43,15 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="MId" id="463575E0-F38C-3C59-9ACE-4F241388D0BF">
+<Attribute name="MId" id="73978E4C-8C60-0BF7-B568-B0DE1FDFC30D">
 <createdBy>DELL</createdBy>
-<createdTime>2020-01-21 21:05:26 UTC</createdTime>
+<createdTime>2020-01-22 23:28:29 UTC</createdTime>
 <generatorID>9842B615-349F-2FC6-FE75-86881944DBFD</generatorID>
 <ownerDesignName>Modeli</ownerDesignName>
 <engineerTo>
 <item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
 </engineerTo>
 <referedAttribute>4432F7C6-0049-2A6B-91D3-351B008C8404</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="TRId2" id="2D06B9D9-F92D-C472-586C-99992B420232">
-<createdBy>DELL</createdBy>
-<createdTime>2020-01-21 21:41:39 UTC</createdTime>
-<generatorID>43C9CA6D-F5D5-4C38-4841-B5A4B40DCB10</generatorID>
-<ownerDesignName>Modeli</ownerDesignName>
-<engineerTo>
-<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
-</engineerTo>
-<referedAttribute>F9FD557A-E4B8-1DE0-890F-D8AEC4E51342</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ZapId" id="CEC71530-BA37-2532-78D3-5FF2FCAA4046">
-<createdBy>DELL</createdBy>
-<createdTime>2020-01-21 21:41:40 UTC</createdTime>
-<generatorID>43C9CA6D-F5D5-4C38-4841-B5A4B40DCB10</generatorID>
-<ownerDesignName>Modeli</ownerDesignName>
-<engineerTo>
-<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
-</engineerTo>
-<referedAttribute>0BB66BDC-D58C-3EE8-7F6C-C8404C2C194E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -138,30 +68,9 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>0BFCD4CC-8059-D53A-4802-271601291A96</attributeRef>
-<attributeRef>836D0262-61F0-974F-EEBC-A511F4FCA1E5</attributeRef>
-<attributeRef>836D0262-61F0-974F-EEBC-A511F4FCA1E5</attributeRef>
-<attributeRef>0BFCD4CC-8059-D53A-4802-271601291A96</attributeRef>
-<attributeRef>545FFF07-D40E-91E8-01AC-477BF121AEA7</attributeRef>
-<attributeRef>463575E0-F38C-3C59-9ACE-4F241388D0BF</attributeRef>
-<attributeRef>545FFF07-D40E-91E8-01AC-477BF121AEA7</attributeRef>
-<attributeRef>463575E0-F38C-3C59-9ACE-4F241388D0BF</attributeRef>
-<attributeRef>5BA346AE-9D26-83A1-97BE-28A0DA14D462</attributeRef>
-<attributeRef>91771160-35E7-324C-7DDD-4B0598992E5E</attributeRef>
-<attributeRef>91771160-35E7-324C-7DDD-4B0598992E5E</attributeRef>
-<attributeRef>5BA346AE-9D26-83A1-97BE-28A0DA14D462</attributeRef>
-<attributeRef>0BFCD4CC-8059-D53A-4802-271601291A96</attributeRef>
-<attributeRef>836D0262-61F0-974F-EEBC-A511F4FCA1E5</attributeRef>
-<attributeRef>836D0262-61F0-974F-EEBC-A511F4FCA1E5</attributeRef>
-<attributeRef>0BFCD4CC-8059-D53A-4802-271601291A96</attributeRef>
-<attributeRef>5BA346AE-9D26-83A1-97BE-28A0DA14D462</attributeRef>
-<attributeRef>91771160-35E7-324C-7DDD-4B0598992E5E</attributeRef>
-<attributeRef>91771160-35E7-324C-7DDD-4B0598992E5E</attributeRef>
-<attributeRef>5BA346AE-9D26-83A1-97BE-28A0DA14D462</attributeRef>
-<attributeRef>545FFF07-D40E-91E8-01AC-477BF121AEA7</attributeRef>
-<attributeRef>463575E0-F38C-3C59-9ACE-4F241388D0BF</attributeRef>
-<attributeRef>545FFF07-D40E-91E8-01AC-477BF121AEA7</attributeRef>
-<attributeRef>463575E0-F38C-3C59-9ACE-4F241388D0BF</attributeRef>
+<attributeRef>03B7DF54-4B51-37AC-0FD9-F316BA562889</attributeRef>
+<attributeRef>7E42DFE6-C067-B1F3-A42F-5301DAD68CF7</attributeRef>
+<attributeRef>73978E4C-8C60-0BF7-B568-B0DE1FDFC30D</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

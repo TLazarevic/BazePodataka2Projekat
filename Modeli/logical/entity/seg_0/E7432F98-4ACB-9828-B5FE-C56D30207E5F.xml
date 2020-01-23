@@ -55,7 +55,7 @@
 <logicalDatatype>LOGDT043</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TrPonIs" id="B0129C82-9292-5C9C-F311-AB9C82147632">
+<Attribute name="TRPonIs" id="B0129C82-9292-5C9C-F311-AB9C82147632">
 <createdBy>DELL</createdBy>
 <createdTime>2020-01-20 21:42:34 UTC</createdTime>
 <commentInRDBMS><![CDATA[Ponovna iskoristivost rakete]]></commentInRDBMS>
@@ -67,7 +67,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TrKapTer" id="151F6910-F6DA-E6B2-AC36-06B97FFCA89F">
+<Attribute name="TRKapTer" id="151F6910-F6DA-E6B2-AC36-06B97FFCA89F">
 <createdBy>DELL</createdBy>
 <createdTime>2020-01-20 21:42:51 UTC</createdTime>
 <commentInRDBMS><![CDATA[Kapacitet tereta u tonama]]></commentInRDBMS>

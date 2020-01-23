@@ -14,7 +14,8 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<createSurrogateKey>true</createSurrogateKey>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>FB8BBD89-1F9B-9074-B748-86D66738296C</discriminatorAttributeID>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="ZapIme" id="ADDA1A29-E0E2-7A28-ECE3-3CAEF47374A3">
 <createdBy>DELL</createdBy>

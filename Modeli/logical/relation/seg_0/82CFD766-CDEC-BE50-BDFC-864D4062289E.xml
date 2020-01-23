@@ -9,7 +9,7 @@
 <targetPk>566EAE98-D5B5-51A1-5C1E-448734F999E8</targetPk>
 <identifying>true</identifying>
 <optionalSource>false</optionalSource>
-<optionalTarget>true</optionalTarget>
+<optionalTarget>false</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>CBACF400-899C-803F-FCD3-6344A3A0B97F</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>

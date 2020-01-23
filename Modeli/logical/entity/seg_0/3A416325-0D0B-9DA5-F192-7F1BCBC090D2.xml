@@ -50,7 +50,6 @@
 <engineerTo>
 <item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <referedAttribute>5A1EA939-3AC4-7645-A46D-2CB944B288C6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -69,6 +68,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>A545F024-E7C2-A562-E409-7E55584DDC1E</attributeRef>
+<attributeRef>78698D90-6E66-76F3-E081-FBE55D61A4E0</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -15,36 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="MId" id="D97EB98A-D9E4-B696-682F-D8057397AF1F">
-<createdBy>DELL</createdBy>
-<createdTime>2020-01-21 21:03:36 UTC</createdTime>
-<generatorID>1A72176A-5E4F-FBE5-3521-52E406139545</generatorID>
-<ownerDesignName>Modeli</ownerDesignName>
-<engineerTo>
-<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>B951C188-D223-E68A-2C7F-338735962C41</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ZapId" id="E65E8043-CDD7-7130-2412-0AB139A8691A">
-<createdBy>DELL</createdBy>
-<createdTime>2020-01-21 21:05:01 UTC</createdTime>
-<generatorID>686A38FB-1A8B-26CC-C4A5-52E66B928CAB</generatorID>
-<ownerDesignName>Modeli</ownerDesignName>
-<engineerTo>
-<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>BD1FBBDB-868B-B8F9-6FC6-E9855F4F71F1</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="TMId" id="DFB93EE1-3B77-D05F-8ABC-88560BD1A917">
 <createdBy>DELL</createdBy>
 <createdTime>2020-01-21 21:05:03 UTC</createdTime>
@@ -53,12 +23,70 @@
 <engineerTo>
 <item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <referedAttribute>CAF29AD4-63BB-220B-BFBA-A7EB6C2B3FA1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ZapId" id="992273C3-C9F7-4D71-52DC-ED6401636F48">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-22 21:05:43 UTC</createdTime>
+<generatorID>686A38FB-1A8B-26CC-C4A5-52E66B928CAB</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<referedAttribute>BD1FBBDB-868B-B8F9-6FC6-E9855F4F71F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TMId1" id="1249ECE9-DFEF-848A-3CFF-CD3D4C15901E">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-22 21:12:36 UTC</createdTime>
+<generatorID>3F643814-F84B-B061-71BC-509620772EAA</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<referedAttribute>1C402682-6A70-5EAC-1147-3464338CE194</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MId" id="30BACE2C-DCF1-86F1-73D3-8232481EFE8F">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-22 23:28:29 UTC</createdTime>
+<generatorID>3F643814-F84B-B061-71BC-509620772EAA</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<referedAttribute>4432F7C6-0049-2A6B-91D3-351B008C8404</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="030E2F46-C627-B5DE-C223-F433417436B5" name="Astronaut ucesnik misije PK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-22 21:08:34 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DFB93EE1-3B77-D05F-8ABC-88560BD1A917</attributeRef>
+<attributeRef>992273C3-C9F7-4D71-52DC-ED6401636F48</attributeRef>
+<attributeRef>1249ECE9-DFEF-848A-3CFF-CD3D4C15901E</attributeRef>
+<attributeRef>30BACE2C-DCF1-86F1-73D3-8232481EFE8F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

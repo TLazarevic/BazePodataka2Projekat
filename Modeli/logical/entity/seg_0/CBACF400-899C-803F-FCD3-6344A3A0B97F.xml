@@ -43,6 +43,68 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="TMId1" id="2C230612-FC8E-24AC-4FEA-BE181705F921">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-22 21:11:39 UTC</createdTime>
+<generatorID>1A72176A-5E4F-FBE5-3521-52E406139545</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DFB93EE1-3B77-D05F-8ABC-88560BD1A917</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ZapId" id="8194A602-F802-07FE-25EA-EF25D4E4469F">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-22 21:11:39 UTC</createdTime>
+<generatorID>1A72176A-5E4F-FBE5-3521-52E406139545</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>992273C3-C9F7-4D71-52DC-ED6401636F48</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TMId11" id="03454FF1-DFFF-6ABD-6E9E-E3771A3B612D">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-22 21:12:36 UTC</createdTime>
+<generatorID>1A72176A-5E4F-FBE5-3521-52E406139545</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1249ECE9-DFEF-848A-3CFF-CD3D4C15901E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MId1" id="9F27241F-FFDB-3DD7-98C9-139B3E9AF128">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-22 23:28:29 UTC</createdTime>
+<generatorID>1A72176A-5E4F-FBE5-3521-52E406139545</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>30BACE2C-DCF1-86F1-73D3-8232481EFE8F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="A0A18903-B5D7-6C46-A95D-9020C32D108C" name="Misija sa tipom misije PK">
@@ -54,8 +116,6 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>1C402682-6A70-5EAC-1147-3464338CE194</attributeRef>
-<attributeRef>4432F7C6-0049-2A6B-91D3-351B008C8404</attributeRef>
 <attributeRef>1C402682-6A70-5EAC-1147-3464338CE194</attributeRef>
 <attributeRef>4432F7C6-0049-2A6B-91D3-351B008C8404</attributeRef>
 </usedAttributes>
