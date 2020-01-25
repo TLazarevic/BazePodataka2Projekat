@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="107456DE-77F6-706C-185F-313683F9ADAC" name="Grad">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>3A416325-0D0B-9DA5-F192-7F1BCBC090D2</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GRId" id="C177E886-5324-8B8E-AD0F-60B9AD502392">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>A545F024-E7C2-A562-E409-7E55584DDC1E</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRNaz" id="AB4DE5A5-F235-0BA1-6E02-119FFBAB2D0C">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Naziv grada]]></commentInRDBMS>
+<generatorID>61EF4BF1-2241-563B-BF29-12823B2A0C0E</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DId" id="28C29F44-848E-7F26-A79E-C76A8EFBF116">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>78698D90-6E66-76F3-E081-FBE55D61A4E0</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CEA903D7-623A-B5A0-C35F-4690D11B325D" referredColumn="37BA4FD2-C5D3-2B2D-7443-1BF28D21B804"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE3D32FD-5E9E-0CB7-B0A7-958C30C3F27A" name="GradPK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>9925DCC5-D86C-ADB7-AEF3-D9AC9E95166E</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C177E886-5324-8B8E-AD0F-60B9AD502392"/>
+<colUsage columnID="28C29F44-848E-7F26-A79E-C76A8EFBF116"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3519287E-6651-7882-B924-7EB573278565" name="GradDrzavaFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>1143C41D-CC4B-D595-832D-3A8C3DD246EB</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28C29F44-848E-7F26-A79E-C76A8EFBF116"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

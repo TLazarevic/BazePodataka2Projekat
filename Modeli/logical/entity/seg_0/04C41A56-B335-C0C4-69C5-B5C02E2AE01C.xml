@@ -42,9 +42,10 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20 CHAR</dataTypeSize>
+<domain>1B177B74-1AD4-FC50-FCEC-8DF7B1B6B38F</domain>
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ZapPrez" id="F74F0757-3E74-82C3-1725-53E1A88392DF">

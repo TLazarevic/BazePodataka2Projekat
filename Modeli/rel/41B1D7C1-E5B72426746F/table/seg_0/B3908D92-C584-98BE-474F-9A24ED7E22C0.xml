@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3908D92-C584-98BE-474F-9A24ED7E22C0" name="upravlja">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ZapId" id="3AFB12BA-181A-F5ED-7550-29ECE18A8506">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0AD5D7CC-A13B-F8C4-B701-FEA7F2F6E223" referredColumn="F1C77EC8-5906-00F9-066F-711C57300114"/>
+</associations>
+</Column>
+<Column name="TRId" id="484B20DD-984F-8B48-C1CB-93646AACEE47">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0AD5D7CC-A13B-F8C4-B701-FEA7F2F6E223" referredColumn="D32EDC3D-2459-8675-DFDB-F0CB2635C777"/>
+</associations>
+</Column>
+<Column name="RaId" id="CCFB35DC-BF69-6F13-1AD4-1BA1FAA8E110">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB5F7C8B-E0B2-6AE6-9831-D677F634E6C6" referredColumn="E6D6603D-3C76-4332-F991-75C82840316B"/>
+</associations>
+</Column>
+<Column name="TMId" id="AD8EED57-1EFC-C7E0-30DB-6059B1F22B74">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB5F7C8B-E0B2-6AE6-9831-D677F634E6C6" referredColumn="3E7BC2A6-2848-4AD0-94C6-45BEADA39550"/>
+</associations>
+</Column>
+<Column name="MId" id="F44AEC54-77F2-6C7D-A0C5-A175A1E9312D">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB5F7C8B-E0B2-6AE6-9831-D677F634E6C6" referredColumn="2F42B2CE-3A1C-7893-83E2-0509E8057752"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0393BA61-7EB9-6D4E-693E-714E549F6CCC" name="upravljaPK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AFB12BA-181A-F5ED-7550-29ECE18A8506"/>
+<colUsage columnID="484B20DD-984F-8B48-C1CB-93646AACEE47"/>
+<colUsage columnID="CCFB35DC-BF69-6F13-1AD4-1BA1FAA8E110"/>
+<colUsage columnID="AD8EED57-1EFC-C7E0-30DB-6059B1F22B74"/>
+<colUsage columnID="F44AEC54-77F2-6C7D-A0C5-A175A1E9312D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4A7DD24-C7FE-C2D9-7501-A8FEE342B796" name="upravljaPiloti_koji_voze_tipove_raketaFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>43C9CA6D-F5D5-4C38-4841-B5A4B40DCB10</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AFB12BA-181A-F5ED-7550-29ECE18A8506"/>
+<colUsage columnID="484B20DD-984F-8B48-C1CB-93646AACEE47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AF231A0-3E84-6FF3-F787-688CD6F05460" name="upravljaRakete_sa_tipovima_sa_misijama_sa_tipovimaFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>43C9CA6D-F5D5-4C38-4841-B5A4B40DCB10</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCFB35DC-BF69-6F13-1AD4-1BA1FAA8E110"/>
+<colUsage columnID="AD8EED57-1EFC-C7E0-30DB-6059B1F22B74"/>
+<colUsage columnID="F44AEC54-77F2-6C7D-A0C5-A175A1E9312D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

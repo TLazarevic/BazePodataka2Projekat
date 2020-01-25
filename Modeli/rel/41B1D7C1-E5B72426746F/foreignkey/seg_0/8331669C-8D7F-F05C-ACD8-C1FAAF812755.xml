@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8331669C-8D7F-F05C-ACD8-C1FAAF812755" containerWithKeyObject="EB73940C-FB80-3397-B3AF-0129F22654EB" localFKIndex="3EE40E4A-EFE2-C015-AF3A-24961E80C85D" name="polecePistaFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>0FB353A4-696D-9B2C-96AA-6D3528037386</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<referredTableLongName>Pista</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>46940891-2805-58AE-1A40-D7FC9509C280</referredTableID>
+<keyObject>BC3816D0-F195-9C57-4D68-7705CBE9C23D</keyObject>
+<referredKeyID>BC3816D0-F195-9C57-4D68-7705CBE9C23D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PId,CPId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

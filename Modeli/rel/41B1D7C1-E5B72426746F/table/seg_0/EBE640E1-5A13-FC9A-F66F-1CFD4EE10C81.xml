@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EBE640E1-5A13-FC9A-F66F-1CFD4EE10C81" name="je_opcija">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRId" id="4A2826AC-79C5-FC75-9976-646A89D9CF77">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84DB5D3E-C335-5FDF-BC23-FF39AFC24FA2" referredColumn="F6E858F7-D053-5F48-B481-46DB62467180"/>
+</associations>
+</Column>
+<Column name="TMId" id="3D460504-D30E-436C-164B-DC8563BA11DD">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12483FE4-D00E-D51B-265C-3ADBFF80E7C8" referredColumn="3E7BC2A6-2848-4AD0-94C6-45BEADA39550"/>
+<colAssociation fkAssociation="84DB5D3E-C335-5FDF-BC23-FF39AFC24FA2" referredColumn="61D64BBC-A02A-4384-2433-31277B86D55B"/>
+</associations>
+</Column>
+<Column name="RaId" id="5D09FD8C-3F3D-4A8C-4CAF-2319A9D0A8CE">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12483FE4-D00E-D51B-265C-3ADBFF80E7C8" referredColumn="E6D6603D-3C76-4332-F991-75C82840316B"/>
+</associations>
+</Column>
+<Column name="MId" id="B3CD6479-3228-3BE8-7078-8C17F376EF6B">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12483FE4-D00E-D51B-265C-3ADBFF80E7C8" referredColumn="2F42B2CE-3A1C-7893-83E2-0509E8057752"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1CD162B8-ADF6-0935-27FC-A1DFCFDAAEB4" name="je_opcijaPK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A2826AC-79C5-FC75-9976-646A89D9CF77"/>
+<colUsage columnID="3D460504-D30E-436C-164B-DC8563BA11DD"/>
+<colUsage columnID="5D09FD8C-3F3D-4A8C-4CAF-2319A9D0A8CE"/>
+<colUsage columnID="B3CD6479-3228-3BE8-7078-8C17F376EF6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9C45918-DDCD-F6B9-2BAE-C213F06EF3A5" name="je_opcijaTip_rakete_sa_tipom_misije_za_koji_je_namenjenaFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>1F0F0A3C-D778-EA7C-B3D8-42DCC2C2DBB2</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A2826AC-79C5-FC75-9976-646A89D9CF77"/>
+<colUsage columnID="3D460504-D30E-436C-164B-DC8563BA11DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EF89F99-329D-D042-78DE-8FCDCA3CD0B1" name="je_opcijaRakete_sa_tipovima_sa_misijama_sa_tipovimaFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>1F0F0A3C-D778-EA7C-B3D8-42DCC2C2DBB2</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D09FD8C-3F3D-4A8C-4CAF-2319A9D0A8CE"/>
+<colUsage columnID="3D460504-D30E-436C-164B-DC8563BA11DD"/>
+<colUsage columnID="B3CD6479-3228-3BE8-7078-8C17F376EF6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

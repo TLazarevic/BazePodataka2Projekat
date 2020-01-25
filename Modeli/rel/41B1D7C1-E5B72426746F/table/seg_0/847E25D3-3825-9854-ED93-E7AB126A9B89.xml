@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="847E25D3-3825-9854-ED93-E7AB126A9B89" name="Piloti_koji_voze_tipove_raketa">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>A1548A1D-72A4-BFE7-3DF1-CDC3991470DF</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRId" id="D32EDC3D-2459-8675-DFDB-F0CB2635C777">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>F9FD557A-E4B8-1DE0-890F-D8AEC4E51342</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4BFEC229-566A-9B78-8543-C1E9CA53C480" referredColumn="514610D6-A92E-D41F-4CDB-B2E3BB71D6DF"/>
+</associations>
+</Column>
+<Column name="ZapId" id="F1C77EC8-5906-00F9-066F-711C57300114">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>0BB66BDC-D58C-3EE8-7F6C-C8404C2C194E</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62965725-91EE-2B94-8F7C-27B8C54B6CF7" referredColumn="50E232C2-E4B7-3C16-326D-CA3461033E94"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53FB09E9-4C2E-1E24-B904-3D7EB41126DF" name="Piloti_koji_voze_tipove_raketaPK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>230CB47D-4059-186C-1E41-668256158697</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1C77EC8-5906-00F9-066F-711C57300114"/>
+<colUsage columnID="D32EDC3D-2459-8675-DFDB-F0CB2635C777"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="335D42A4-AC29-EAFD-E1C8-933A3402014B" name="Piloti_koji_voze_tipove_raketaPilotFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>C8DE4186-BBD8-8235-C991-AEE4687D13DC</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1C77EC8-5906-00F9-066F-711C57300114"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F8B77F0-9401-FD48-2D59-35D60845367C" name="Piloti_koji_voze_tipove_raketaTip_raketeFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>311B4F58-2972-BD48-1998-2FE994AA484B</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D32EDC3D-2459-8675-DFDB-F0CB2635C777"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

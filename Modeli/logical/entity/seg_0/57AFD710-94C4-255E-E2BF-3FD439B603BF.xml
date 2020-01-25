@@ -52,6 +52,8 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C47A037B-56F4-2A70-4413-01C11E144E9E</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="MDatPoc" id="595D7260-3DB3-D823-3E1D-797AD065E536">
@@ -92,6 +94,8 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A9FC8FD3-8767-B5E2-18FA-807DDF096004</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="MNaz" id="A03A8619-6F5C-4BA5-E02C-E820E26655AB">

@@ -3,6 +3,7 @@ CREATE TABLE Drzava
 	(
 	 DId integer not null,
 	DNaz varchar(30) not null,
+	CONSTRAINT DRZAVA_U UNIQUE (DNaz),
 	CONSTRAINT Drzava_PK PRIMARY KEY (DId)
 	 
 );
@@ -14,6 +15,21 @@ CREATE TABLE Grad
 	DId varchar(30) not null,
 	CONSTRAINT Grad_PK PRIMARY KEY (GRId),
 	CONSTRAINT Grad_FK FOREIGN KEY (DId) REFERENCES Drzava (DId)
+	
+	 
+);
+
+
+CREATE TABLE CentriIPostrojenja
+	(
+	 CPId integer not null,
+	CPAdr varchar(30) not null,
+	CPTel varchar(30) not null,
+	GRId integer not null,
+	DId integer not null,
+	CONSTRAINT CentriIPostrojenja_PK PRIMARY KEY (CPId),
+	CONSTRAINT CentriIPostrojenja_G_FK FOREIGN KEY (GRId) REFERENCES Grad (GRId),
+	CONSTRAINT v_D_FK FOREIGN KEY (DId) REFERENCES Drzava (DId)
 	 
 );
 
@@ -34,23 +50,11 @@ CREATE TABLE Gorivo
 );
 
 
-CREATE TABLE CentriIPostrojenja
-	(
-	 CPId integer not null,
-	CPAdr varchar(30) not null,
-	CPTel varchar(30) not null,
-	GRId integer not null,
-	DId integer not null,
-	CONSTRAINT CentriIPostrojenja_PK PRIMARY KEY (CPId),
-	CONSTRAINT StranaAgencija_FK FOREIGN KEY (GRId) REFERENCES Grad (GRId),
-	CONSTRAINT StranaAgencija_FK FOREIGN KEY (DId) REFERENCES Drzava (DId)
-	 
-);
 
 CREATE TABLE StranaAgencija(
 	 AgId integer not null,
 	 AgNaziv varchar(30) not null,
-    Did integer,	
+    	Did integer not null,	
 	 CONSTRAINT StranaAgencija_PK PRIMARY KEY (AgId),
 	 CONSTRAINT StranaAgencija_FK FOREIGN KEY (DId) REFERENCES Drzava (DId)
      	
@@ -63,10 +67,8 @@ CREATE TABLE Zaposleni
 	 ZapPrez varchar(30) not null,
  	 ZapZan varchar(30) not null,
 	 ZapId integer NOT NULL, 
-     CpID integer not null,
-	AgId integer not null,
-	 CONSTRAINT Zaposleni_FK FOREIGN KEY (CPId) REFERENCES CentriIPostrojenja (CPId),
-	CONSTRAINT Zaposleni_FK FOREIGN KEY (AgId) REFERENCES StranaAgencija (AgId),
+     	CpID integer,
+	 CONSTRAINT Zaposleni_CP_FK FOREIGN KEY (CPId) REFERENCES CentriIPostrojenja (CPId),
     CONSTRAINT Zaposleni_PK PRIMARY KEY (ZapId)
 );
 
@@ -74,15 +76,16 @@ CREATE TABLE Astronaut
 	(
 	 ATip varchar(30) not null,
 	 ZapId integer not null,
-	AgId integer not null,
+	AgId integer,
 	CONSTRAINT ASTRONAUT_PK PRIMARY KEY (ZapId)
-	CONSTRAINT ASTRONAUT_FK FOREIGN KEY (ZapId) REFERENCES Zaposleni (ZapId),
-	CONSTRAINT ASTRONAUT_FK FOREIGN KEY (AgId) REFERENCES StranaAgencija (AgId)
+	CONSTRAINT ASTRONAUT_Z_FK FOREIGN KEY (ZapId) REFERENCES Zaposleni (ZapId),
+	CONSTRAINT ASTRONAUT_A_FK FOREIGN KEY (AgId) REFERENCES StranaAgencija (AgId)
 );
 
 CREATE TABLE Pilot
 	(
-	 ZapId integer not null,
+	 ZapId integer not null,	
+	CONSTRAINT PILOT_PK PRIMARY KEY (ZapId)
 );
 
 CREATE TABLE TipMisije 
@@ -97,7 +100,7 @@ CREATE TABLE TipRakete
 	 TRId integer not null,
 	 TRNaz varchar(30) not null,
 	 TRPonIs varchar(20) not null,
-	 TRCena decimal (20,2) not null,
+	 TRLCena decimal (20,2) not null,
 	 TRKapTer decimal (20,2) not null,
 	 CONSTRAINT TIPRAKETE_PK PRIMARY KEY (TRId)
 );
@@ -135,8 +138,8 @@ CREATE TABLE PiloTipRak
 	(
 	 TRId integer not null,
 	 ZapId integer not null,
-	 CONSTRAINT PILOITIPRAK_FK FOREIGN KEY (TRId) REFERENCES TipRakete (TRId),
-	 CONSTRAINT PILOIIPRAK_FK FOREIGN KEY (ZapId) REFERENCES Zaposleni (ZapId),
+	 CONSTRAINT PILOITIPRAK_TR_FK FOREIGN KEY (TRId) REFERENCES TipRakete (TRId),
+	 CONSTRAINT PILOIIPRAK_Z_FK FOREIGN KEY (ZapId) REFERENCES Zaposleni (ZapId),
 	 CONSTRAINT PILOITIPRAK_PK  PRIMARY KEY (TRId,ZapId)
 );
 
@@ -144,18 +147,17 @@ CREATE TABLE AstroiTipMis
 	(
 	 ZapId integer not null,
 	 TMId integer not null,
-	 CONSTRAINT ASTROITIPRAK_FK FOREIGN KEY (TMId) REFERENCES TipMisije (TMId),
-	 CONSTRAINT ASTROIIPRAK_FK FOREIGN KEY (ZapId) REFERENCES Zaposleni (ZapId),
-	 CONSTRAINT ASTROIIPRAK_PK  PRIMARY KEY (TMId,ZapId) 
-	 
+	 CONSTRAINT ASTROITIPRAKT_M_FK FOREIGN KEY (TMId) REFERENCES TipMisije (TMId),
+	 CONSTRAINT ASTROIIPRAK_Z_FK FOREIGN KEY (ZapId) REFERENCES Zaposleni (ZapId),
+	 CONSTRAINT ASTROIIPRAK_PK  PRIMARY KEY (TMId,ZapId) 	 
 );
 
 CREATE TABLE TRGorivo
 	(
 	 TRId integer not null,
 	 GId integer not null,
-	 CONSTRAINT TRGORIVO_FK FOREIGN KEY (TRId) REFERENCES TipRakete (TRId),
-	 CONSTRAINT TRGORIVO_FK FOREIGN KEY (GId) REFERENCES Gorivo (GId),
+	 CONSTRAINT TRGORIVO_TR_FK FOREIGN KEY (TRId) REFERENCES TipRakete (TRId),
+	 CONSTRAINT TRGORIVO_G_FK FOREIGN KEY (GId) REFERENCES Gorivo (GId),
 	 CONSTRAINT TRGORIVO_PK  PRIMARY KEY (TMId,GId)	 
 );
 
@@ -164,8 +166,8 @@ CREATE TABLE MisDest
 	(
 	DeId integer not null,
 	MId integer not null,
-	CONSTRAINT MISDEST_FK FOREIGN KEY (DeId) REFERENCES Destinacija (DeId),
-	CONSTRAINT MISTEST_FK FOREIGN KEY (MId) REFERENCES Misija (MId),
+	CONSTRAINT MISDEST_D_FK FOREIGN KEY (DeId) REFERENCES Destinacija (DeId),
+	CONSTRAINT MISTEST_M_FK FOREIGN KEY (MId) REFERENCES Misija (MId),
 	CONSTRAINT MISTEST_PK PRIMARY KEY (DeId,MId)
 );
 
@@ -198,7 +200,7 @@ CREATE TABLE MisPis
 	CONSTRAINT MISPIS_PK PRIMARY KEY (CPId,MId),
 	CONSTRAINT MISPIS_M_FK FOREIGN KEY (MId) REFERENCES Misija (MId),
 	CONSTRAINT MISPIS_P_FK FOREIGN KEY (PId) REFERENCES Pista (Pid),
-	CONSTRAINT MISPIS_CP_FK FOREIGN KEY (CPId) REFERENCES CentriPostrojenja (CpId)
+	CONSTRAINT MISPIS_CP_FK FOREIGN KEY (CPId) REFERENCES CentriIPostrojenja (CpId)
 );
 
 CREATE TABLE Opcija 
@@ -212,4 +214,43 @@ CREATE TABLE Opcija
 	CONSTRAINT OPCIJA_TM_FK FOREIGN KEY (TMId) REFERENCES TipMisije (TMId),
 	CONSTRAINT OPCIJA_TR_FK FOREIGN KEY (TRId) REFERENCES TipRakete (TRId),
 	CONSTRAINT OPCIJA_R_FK FOREIGN KEY (RId) REFERENCES TipRakete (RId),
+);
+
+CREATE TABLE KoristiSe
+	(
+	RaId integer,
+	TMId integer not null,
+	MId integer not null,
+	CONSTRAINT KORISTISE_PK PRIMARY KEY (RaId,TMId,MId),
+	CONSTRAINT KORISTISE_R_FK FOREIGN KEY (RaId) REFERENCES Raketa (RaId),
+	CONSTRAINT KORISTISE_TM_FK FOREIGN KEY (TMId) REFERENCES TipMisije (TMId),
+	CONSTRAINT KORISTISE_M_FK FOREIGN KEY (MId) REFERENCES Misija (MId)	
+);
+
+CREATE TABLE Ucesnik
+	(
+	 ZapId integer,
+	 TMId integer,
+	 MId integer,
+	CONSTRAINT UCESNIK_PK PRIMARY KEY (ZapId,TMId,MId),
+	CONSTRAINT UCESNIK_Z_FK FOREIGN KEY (Zap) REFERENCES Zaposleni (ZapId),
+	CONSTRAINT UCESNIK_TM_FK FOREIGN KEY (TMId) REFERENCES TipMisije (TMId),
+	CONSTRAINT UCESNIK_M_FK FOREIGN KEY (MId) REFERENCES Misija (MId)
+		 
+);
+
+CREATE TABLE PiloMis
+	(
+	 
+	 ZapId integer,
+	TRId integer,
+	RaId integer,
+	TMId integer,
+	 MId integer,
+	CONSTRAINT PILOMIS_PK PRIMARY KEY (ZapId,TMId,MId,TRId,RaId),
+	CONSTRAINT PILOMIS_Z_FK FOREIGN KEY (Zap) REFERENCES Zaposleni (ZapId),
+	CONSTRAINT PILOMIS_TM_FK FOREIGN KEY (TMId) REFERENCES TipMisije (TMId),
+	CONSTRAINT PILOMIS_M_FK FOREIGN KEY (MId) REFERENCES Misija (MId),
+	CONSTRAINT PILOMIS_R_FK FOREIGN KEY (RaId) REFERENCES Raketa (RaId),
+	CONSTRAINT PILOMIS_TR_FK FOREIGN KEY (TRId) REFERENCES TipRakete (TRId)
 );

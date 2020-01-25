@@ -53,7 +53,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT043</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeScale>1000000</dataTypeScale>
+<ownDataTypeParameters>,,1000000</ownDataTypeParameters>
 </Attribute>
 <Attribute name="TRPonIs" id="B0129C82-9292-5C9C-F311-AB9C82147632">
 <createdBy>DELL</createdBy>
@@ -65,6 +66,8 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8BAC1B6C-EBE6-1C03-2ADC-3523D501E4BA</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="TRKapTer" id="151F6910-F6DA-E6B2-AC36-06B97FFCA89F">

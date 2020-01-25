@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9491AFCA-70D9-2FAC-8574-48BFA2253EDE" name="Astronaut">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>3423D782-E624-DB63-1D98-8E4F9BBE9130</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AgId" id="C45BE31D-8120-0EFC-20CA-040A24DF16BD">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>387E995D-8163-95F3-7ACF-D9D0B5DE2039</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="129D326A-5B1D-E786-7B95-5DF5FABB9996" referredColumn="AE04FF34-B882-3BB2-0F0D-715D9034C525"/>
+</associations>
+</Column>
+<Column name="ATip" id="1E741469-26A4-EA76-F146-2B8653AC0D79">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>03BDAAE5-EFF3-BC3D-2B35-5B0EB29CBC90</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>50A6C0EB-B8BE-861C-097C-FD88D8C9FA86</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZapId" id="CDEFB475-C570-9530-3DB2-7716D0D3382B">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>3B8CA77A-EF1D-B14E-2D28-7EE295040C32</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52F1776E-E0E1-173A-FDB6-07BC6CF57DD1" referredColumn="748B9A74-EFBB-EF49-5F09-3EC7BA1F2250"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D9E5FFE-9B9C-A3EC-5A26-8BBB99FE95BF" name="AstronautPK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>196CFFED-CB8D-EE85-91D2-04F9E9761E21</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDEFB475-C570-9530-3DB2-7716D0D3382B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E83E2CD-BD41-723D-BDEB-5423A24A47E4" name="AstronautZaposleniFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>C8831A0A-1EBA-8EA1-81D7-17D5F35F1034</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDEFB475-C570-9530-3DB2-7716D0D3382B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59D90697-3755-5B61-6A48-EF5FB27F68A3" name="AstronautStrana_agencijaFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>9B4A536F-685A-2664-C332-76FE10962C28</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C45BE31D-8120-0EFC-20CA-040A24DF16BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

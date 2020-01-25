@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="735AEFA7-5650-8A36-89B3-2EE2A3E20E88" name="Astronauti_obuceni_za_tip_misije">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>1E1F16D2-AFD6-FDDE-6B0A-7C4088B75F33</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ZapId" id="DD5DD650-D70F-057A-95CD-DF0490276CE7">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>BD1FBBDB-868B-B8F9-6FC6-E9855F4F71F1</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFBF7047-D500-4FD1-5070-036125BB9ACC" referredColumn="CDEFB475-C570-9530-3DB2-7716D0D3382B"/>
+</associations>
+</Column>
+<Column name="TMId" id="13BFC26A-F1F2-B0C8-06DF-DA18046273A3">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>CAF29AD4-63BB-220B-BFBA-A7EB6C2B3FA1</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4B88669-63E1-8A4E-2D8F-A93864488CBC" referredColumn="F7177FD2-3AB2-75E9-ACF9-82A2E547FB9B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00A7584E-4B02-A028-B88B-46D20A6BE7E6" name="Astronauti_obuceni_za_tip_misijePK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>EC89C3AC-A8E8-5CAF-577D-D59B48952CA5</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13BFC26A-F1F2-B0C8-06DF-DA18046273A3"/>
+<colUsage columnID="DD5DD650-D70F-057A-95CD-DF0490276CE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28B842D0-3F25-56A7-30FB-54C08224BDED" name="Astronauti_obuceni_za_tip_misijeTip_misijeFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>AB2B4679-0445-F55D-6316-AE215F840E6B</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13BFC26A-F1F2-B0C8-06DF-DA18046273A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6ADF7E92-8B82-C8C5-4AED-466FD1B36C92" name="Astronauti_obuceni_za_tip_misijeAstronautFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>2B3B1097-3C70-238C-3306-0371D1CA8E47</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD5DD650-D70F-057A-95CD-DF0490276CE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

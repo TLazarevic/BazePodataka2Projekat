@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9116780-027A-88EF-AE47-CB4BEB555C60" name="Centri_i_postrojenja">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>B3F46245-C002-B034-D841-DC3CB81226BE</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CPId" id="8464CF67-0496-477E-838A-E538466E1B79">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>792407CD-49F3-BCDD-048E-58393762A020</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPAdr" id="35601C0C-38A4-3072-BE21-967376116EEF">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Adresa centra ili postrojenja]]></commentInRDBMS>
+<generatorID>8C1033AE-977F-A043-98C8-064209556BA3</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPTel" id="EF2B9AF6-3CC0-0761-EA61-05A34306BFBF">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Telefon centra ili postrojenja]]></commentInRDBMS>
+<generatorID>E99B02FF-72D1-7B9E-C7E5-2BB60D21CE3F</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRId" id="86F56BC6-530F-5622-15AE-2C2484D00660">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>DB6958C6-4ABE-3221-F71F-4FCD209874B9</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE54E8A3-5945-6A8A-5BD6-91FDAE194D08" referredColumn="C177E886-5324-8B8E-AD0F-60B9AD502392"/>
+</associations>
+</Column>
+<Column name="DId" id="7DCC1CC8-F904-C58C-4FDA-6F5FCF286D83">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>18261CF8-CFC0-74A4-9584-33E72FDE3693</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE54E8A3-5945-6A8A-5BD6-91FDAE194D08" referredColumn="28C29F44-848E-7F26-A79E-C76A8EFBF116"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3F2ADD7-B097-F6A3-F47A-1635D18961ED" name="Centri_i_postrojenjaPK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>8A5EDA59-9960-8BC4-D7A3-E9A0C364140C</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8464CF67-0496-477E-838A-E538466E1B79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="222B632B-389C-7B48-1877-9CF5DA26D7DC" name="Centri_i_postrojenjaGradFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>D05EB84F-BD52-BF1F-A056-74FDB3CBBDDC</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86F56BC6-530F-5622-15AE-2C2484D00660"/>
+<colUsage columnID="7DCC1CC8-F904-C58C-4FDA-6F5FCF286D83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

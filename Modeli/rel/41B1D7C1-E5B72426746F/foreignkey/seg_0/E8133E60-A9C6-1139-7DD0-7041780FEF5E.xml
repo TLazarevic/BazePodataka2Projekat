@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E8133E60-A9C6-1139-7DD0-7041780FEF5E" containerWithKeyObject="12EB438A-0343-6DD8-0D8A-10018FE3E1DF" localFKIndex="2EDE702F-FB2D-4617-22F2-2B038161F66D" name="Tip_rakete_sa_tipom_misije_za_koji_je_namenjenaTip_raketeFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-25 17:15:14 UTC</createdTime>
+<generatorID>9BBB2D06-1093-AA6B-4D08-125A8876E593</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<referredTableLongName>Tip_rakete</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BB53F7E0-6F40-D7D2-6A0A-04304A5D4AA2</referredTableID>
+<keyObject>957CFF98-2EF5-EB90-A69B-CD4E2A2E6835</keyObject>
+<referredKeyID>957CFF98-2EF5-EB90-A69B-CD4E2A2E6835</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TRId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
