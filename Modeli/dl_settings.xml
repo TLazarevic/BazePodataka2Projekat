@@ -285,7 +285,7 @@
 			<colck value="CK{table abbr}_{column}"/>
 			<colnnc value="NNC{table abbr}_{column}"/>
 			<column_foreign_key value="{ref column}"/>
-			<ui value="{entity} PK"/>
+			<ui value="{entity abbr} PK"/>
 			<relation_attribute value="{ref entity}_{ref attribute}"/>
 			<surrogate_key value="{table abbr}_PK"/>
 			<surrogate_key_col value="{table abbr}_ID"/>

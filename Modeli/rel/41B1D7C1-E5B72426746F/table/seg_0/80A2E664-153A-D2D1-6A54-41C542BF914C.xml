@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80A2E664-153A-D2D1-6A54-41C542BF914C" name="Tip_rakete_sa_tipom_misije">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:08 UTC</createdTime>
+<generatorID>79500CAF-5970-5C5B-FD1B-64F8F87255DE</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<ordsAlias>tip_rakete_sa_tipom_misije_za_koji_je_namenjena</ordsAlias>
+<abbreviation>tr_tm</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TMId" id="834FD0A8-40F2-1DE4-16AB-CA904B087037">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:08 UTC</createdTime>
+<generatorID>B64DAC6D-4D67-7A8A-D836-4F2557E71DCE</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCtr_tm_TMId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="96CE1666-554B-0EA8-3FEE-73D98413E9FE" referredColumn="2C1674E3-6AB6-D62F-9AE9-DF0829EEF195"/>
+</associations>
+</Column>
+<Column name="TRId" id="8619FEE9-C6E0-3394-870E-44040297E72C">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:08 UTC</createdTime>
+<generatorID>7E2BC948-933A-E679-7D59-D199266C0B45</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCtr_tm_TRId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="F4379A34-7B58-7808-C1A8-9A167245FF18" referredColumn="F9B18931-A9E2-E4EB-B4D5-31D93BB55911"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B0A4D3E-73D3-CA1F-F840-D52FD763A4EE" name="tr_tmPK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:08 UTC</createdTime>
+<generatorID>217714C6-FA0B-41DF-D304-FD1CD0A98E99</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8619FEE9-C6E0-3394-870E-44040297E72C"/>
+<colUsage columnID="834FD0A8-40F2-1DE4-16AB-CA904B087037"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6506CF4C-A3FE-B144-8B68-971C905468A8" name="tr_tmTip_misijeFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:09 UTC</createdTime>
+<generatorID>541B3F3F-B36D-00DF-2F8E-29F52640B480</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="834FD0A8-40F2-1DE4-16AB-CA904B087037"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C8DE4EC-2001-5EAE-C732-CBC9975079A6" name="tr_tmTRFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:09 UTC</createdTime>
+<generatorID>9BBB2D06-1093-AA6B-4D08-125A8876E593</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8619FEE9-C6E0-3394-870E-44040297E72C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

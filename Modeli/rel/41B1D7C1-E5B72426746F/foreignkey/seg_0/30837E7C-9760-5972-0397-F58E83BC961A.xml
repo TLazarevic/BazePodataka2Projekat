@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="30837E7C-9760-5972-0397-F58E83BC961A" containerWithKeyObject="9F0285C4-CD40-CA7B-517B-39C354CE9035" localFKIndex="B1BCBCF0-435C-7C2D-D56E-E3824CD74A6A" name="trosiGorivoFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:09 UTC</createdTime>
+<generatorID>CDB0DC89-4708-A6DB-2A57-0CF78BEB4C45</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<referredTableLongName>Gorivo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CDD869A5-0231-0093-E810-5F7804F5B64D</referredTableID>
+<keyObject>A4D17263-9427-B248-0C5D-81317601C7D4</keyObject>
+<referredKeyID>A4D17263-9427-B248-0C5D-81317601C7D4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>GId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

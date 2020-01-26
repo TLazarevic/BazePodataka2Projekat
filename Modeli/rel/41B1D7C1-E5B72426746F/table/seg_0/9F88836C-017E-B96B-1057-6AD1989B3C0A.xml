@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F88836C-017E-B96B-1057-6AD1989B3C0A" name="polece">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:08 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PId" id="8AC82167-8E14-6E70-6FB0-927B8053BEA3">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:08 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCpolece_PId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="87CE3641-AD16-6105-9FF6-C799C4D699A4" referredColumn="937A4897-2110-11CD-161C-D31032865CAC"/>
+</associations>
+</Column>
+<Column name="CPId" id="6E9FD60D-E3AA-61B3-F3E7-9D2533722C8C">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:08 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCpolece_CPId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="87CE3641-AD16-6105-9FF6-C799C4D699A4" referredColumn="F236F5A6-8C9B-5671-7F7F-7F83139DD2F9"/>
+</associations>
+</Column>
+<Column name="MId" id="44244ABF-6E1D-C179-4F97-732B061EBE43">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:08 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCpolece_MId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="A6C83B55-A0DC-4AD8-9DA1-FE5B865008CD" referredColumn="3372989E-57AB-3FA3-E49D-4B1B7F68AFAE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0C88408-2A12-F63B-58B6-F2036237CFB9" name="polecePK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:08 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AC82167-8E14-6E70-6FB0-927B8053BEA3"/>
+<colUsage columnID="6E9FD60D-E3AA-61B3-F3E7-9D2533722C8C"/>
+<colUsage columnID="44244ABF-6E1D-C179-4F97-732B061EBE43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38A48CF1-717B-9A7C-93BA-C9803E4A0704" name="polecePFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:08 UTC</createdTime>
+<generatorID>0FB353A4-696D-9B2C-96AA-6D3528037386</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AC82167-8E14-6E70-6FB0-927B8053BEA3"/>
+<colUsage columnID="6E9FD60D-E3AA-61B3-F3E7-9D2533722C8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A8AA9AF-BB34-B3C2-837E-9750525BF08C" name="poleceMFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:08 UTC</createdTime>
+<generatorID>0FB353A4-696D-9B2C-96AA-6D3528037386</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44244ABF-6E1D-C179-4F97-732B061EBE43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

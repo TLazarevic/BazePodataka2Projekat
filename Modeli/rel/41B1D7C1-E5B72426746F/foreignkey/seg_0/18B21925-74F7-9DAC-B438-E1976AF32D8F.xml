@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="18B21925-74F7-9DAC-B438-E1976AF32D8F" containerWithKeyObject="008460B6-8C8B-4660-64E6-7B943DF14A2C" localFKIndex="2808B6B8-CB3B-D074-0249-2AD2DDD7C94C" name="ASTRO_OB_TMASTROFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:08 UTC</createdTime>
+<generatorID>2B3B1097-3C70-238C-3306-0371D1CA8E47</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<referredTableLongName>Astronaut</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>39BCA769-CC82-6BE2-427A-B0656445B4AC</referredTableID>
+<keyObject>F3BD78BD-2182-F3AA-D851-F04FC9BE8A3F</keyObject>
+<referredKeyID>F3BD78BD-2182-F3AA-D851-F04FC9BE8A3F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ZapId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

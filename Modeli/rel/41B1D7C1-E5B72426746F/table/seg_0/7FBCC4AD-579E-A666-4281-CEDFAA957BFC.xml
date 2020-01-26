@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7FBCC4AD-579E-A666-4281-CEDFAA957BFC" name="Misija">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<generatorID>57AFD710-94C4-255E-E2BF-3FD439B603BF</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<abbreviation>M</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MId" id="3372989E-57AB-3FA3-E49D-4B1B7F68AFAE">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<generatorID>B951C188-D223-E68A-2C7F-338735962C41</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCM_MId</notNullConstraintName>
+</Column>
+<Column name="MAkr" id="8CF92F66-D11A-1FDE-19B9-D7B17A5AF1B7">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Akronim misije]]></commentInRDBMS>
+<generatorID>E630A48F-CDE6-B603-49CF-28000AA368DD</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MStat" id="B7A581B4-2027-7FD0-D247-B408178B4A37">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Status misije]]></commentInRDBMS>
+<generatorID>A6917CAE-4CA2-07F7-04C0-7D8D4BFF730C</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<constraintName>CKM_MStat</constraintName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C47A037B-56F4-2A70-4413-01C11E144E9E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCM_MStat</notNullConstraintName>
+</Column>
+<Column name="MDatPoc" id="21DBDEC2-FF30-8121-D5D7-8BF3425E9047">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Datum pocetka misije]]></commentInRDBMS>
+<generatorID>595D7260-3DB3-D823-3E1D-797AD065E536</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MBu" id="26FC287D-F2BB-366A-7A38-CA424655A07C">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Budzet misije]]></commentInRDBMS>
+<generatorID>206DEA04-382A-D747-280C-E3A576F0A0AA</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCM_MBu</notNullConstraintName>
+</Column>
+<Column name="MRez" id="87E66DC9-61BE-A8DB-4727-12B78DE92562">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Rezultat misije]]></commentInRDBMS>
+<generatorID>2A741045-4243-9178-DDB0-1E1284A607A0</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<constraintName>CKM_MRez</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A9FC8FD3-8767-B5E2-18FA-807DDF096004</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MNaz" id="2FB74F09-6C1B-A11C-A94A-82452B2EB4D8">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<generatorID>A03A8619-6F5C-4BA5-E02C-E820E26655AB</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCM_MNaz</notNullConstraintName>
+</Column>
+<Column name="MDatZav" id="6F834ED8-4354-70D9-5387-7F959F4EF9E7">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Datum zavrsetka misije]]></commentInRDBMS>
+<generatorID>04E5B500-3F9F-464F-B421-14B0390E812D</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5329A0A1-5FFF-A7BC-75E9-73177D810805" name="MPK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<generatorID>566EAE98-D5B5-51A1-5C1E-448734F999E8</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3372989E-57AB-3FA3-E49D-4B1B7F68AFAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

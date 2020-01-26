@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39BCA769-CC82-6BE2-427A-B0656445B4AC" name="Astronaut">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:08 UTC</createdTime>
+<generatorID>3423D782-E624-DB63-1D98-8E4F9BBE9130</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<abbreviation>ASTRO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AgId" id="DA9B739F-53AC-D723-F298-2874B42177D6">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:08 UTC</createdTime>
+<generatorID>387E995D-8163-95F3-7ACF-D9D0B5DE2039</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00A557DB-FD4E-D90A-4DF4-A0418C37EEA7" referredColumn="C1FF8FBF-D954-D32A-DC7C-5A4C03695E2B"/>
+</associations>
+</Column>
+<Column name="ATip" id="0E9AB529-3768-A4A5-0217-8D58EFA0D297">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:08 UTC</createdTime>
+<generatorID>03BDAAE5-EFF3-BC3D-2B35-5B0EB29CBC90</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<constraintName>CKASTRO_ATip</constraintName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>50A6C0EB-B8BE-861C-097C-FD88D8C9FA86</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCASTRO_ATip</notNullConstraintName>
+</Column>
+<Column name="ZapId" id="0F51686E-9541-3507-C4B7-C9B5A295636E">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:08 UTC</createdTime>
+<generatorID>3B8CA77A-EF1D-B14E-2D28-7EE295040C32</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCASTRO_ZapId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="1CFBA0D9-C396-50D3-AD52-13E193000CE7" referredColumn="AE180471-6365-CB95-F3C7-7FEF2C7E046C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3BD78BD-2182-F3AA-D851-F04FC9BE8A3F" name="ASTROPK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:08 UTC</createdTime>
+<generatorID>196CFFED-CB8D-EE85-91D2-04F9E9761E21</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F51686E-9541-3507-C4B7-C9B5A295636E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB8AD532-71BE-D129-EB14-C6E0D4AECE53" name="ASTROZAPFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:08 UTC</createdTime>
+<generatorID>C8831A0A-1EBA-8EA1-81D7-17D5F35F1034</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F51686E-9541-3507-C4B7-C9B5A295636E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43CFDE60-CB04-461E-BAD8-E42507376556" name="ASTROStrana_agencijaFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:08 UTC</createdTime>
+<generatorID>9B4A536F-685A-2664-C332-76FE10962C28</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA9B739F-53AC-D723-F298-2874B42177D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

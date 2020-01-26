@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E56C8B29-F618-37AD-639C-2BCACB5397B0" containerWithKeyObject="4CE7B220-38F7-8CD5-5C57-F7E972858E46" localFKIndex="34B82B22-39A1-04B1-9D10-B209B0403299" name="M_TMAstro_uces_mFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:09 UTC</createdTime>
+<generatorID>1A72176A-5E4F-FBE5-3521-52E406139545</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<referredTableLongName>Astronaut_ucesnik_misije</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A011F072-87D3-80D0-AEDF-ECAAD1535264</referredTableID>
+<keyObject>398A766A-3C91-12A0-F0E7-26B38D02E95C</keyObject>
+<referredKeyID>398A766A-3C91-12A0-F0E7-26B38D02E95C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>TMId,ZapId,MId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

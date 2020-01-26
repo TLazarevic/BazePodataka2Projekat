@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F6D7E81-9DF9-B708-7FFF-83C811E19C14" name="Tip_misije">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<generatorID>2A4D0A7F-F952-C25C-FFE1-5CB24EC71AE0</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TMId" id="2C1674E3-6AB6-D62F-9AE9-DF0829EEF195">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<generatorID>EE12D151-5E62-0A30-66E3-938C761FF85D</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TMNaz" id="62A300D8-47D8-3EEB-474F-FF9C7A89F440">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<generatorID>B68DD9F6-18BD-40DF-BD27-5144FF7F52E1</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7CA3463E-9683-0554-DBCC-6709F0687490" name="Tip_misijePK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<generatorID>A2B6C546-1A47-F4F3-41B1-D75E7762B534</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C1674E3-6AB6-D62F-9AE9-DF0829EEF195"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

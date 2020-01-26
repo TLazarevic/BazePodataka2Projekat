@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C7ED05D-4314-6D18-1825-75D9D48B6B0F" name="Centri_i_postrojenja">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<generatorID>B3F46245-C002-B034-D841-DC3CB81226BE</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<abbreviation>cp</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CPId" id="28CC287C-A14F-DDC5-3C0B-4065C9A51411">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<generatorID>792407CD-49F3-BCDD-048E-58393762A020</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCcp_CPId</notNullConstraintName>
+</Column>
+<Column name="CPAdr" id="A91B3BF1-446C-5B83-9981-D0785E13C41C">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Adresa centra ili postrojenja]]></commentInRDBMS>
+<generatorID>8C1033AE-977F-A043-98C8-064209556BA3</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCcp_CPAdr</notNullConstraintName>
+</Column>
+<Column name="CPTel" id="9F0E0BBD-6396-563A-6911-C8D872FFF3E1">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Telefon centra ili postrojenja]]></commentInRDBMS>
+<generatorID>E99B02FF-72D1-7B9E-C7E5-2BB60D21CE3F</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRId" id="1EC06091-8FFD-F6B7-05C5-A8A11C213B1F">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<generatorID>DB6958C6-4ABE-3221-F71F-4FCD209874B9</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCcp_GRId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="D491B81E-F24E-0876-1F86-58A20CCC7761" referredColumn="EC1EBED1-F75C-6C38-66F2-EE3097A1B7E3"/>
+</associations>
+</Column>
+<Column name="DId" id="1E95EBDB-0D79-00B1-558C-35EE3A98B86F">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<generatorID>18261CF8-CFC0-74A4-9584-33E72FDE3693</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCcp_DId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="D491B81E-F24E-0876-1F86-58A20CCC7761" referredColumn="C2A1C3B7-2248-F863-9DC4-773A6A85BCBC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5141B05C-499D-B195-6E81-ECBAB558877E" name="cpPK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<generatorID>8A5EDA59-9960-8BC4-D7A3-E9A0C364140C</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28CC287C-A14F-DDC5-3C0B-4065C9A51411"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D489BC4-FF01-DF57-4D5D-C741CE3F449C" name="cpGRFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:08 UTC</createdTime>
+<generatorID>D05EB84F-BD52-BF1F-A056-74FDB3CBBDDC</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EC06091-8FFD-F6B7-05C5-A8A11C213B1F"/>
+<colUsage columnID="1E95EBDB-0D79-00B1-558C-35EE3A98B86F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

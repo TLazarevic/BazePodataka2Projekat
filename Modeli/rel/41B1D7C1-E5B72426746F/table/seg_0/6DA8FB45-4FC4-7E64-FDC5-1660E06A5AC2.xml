@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6DA8FB45-4FC4-7E64-FDC5-1660E06A5AC2" name="Strana_agencija">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<generatorID>C6030A86-2615-7627-895C-CDCB5BA71135</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AgId" id="C1FF8FBF-D954-D32A-DC7C-5A4C03695E2B">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<generatorID>DF81E989-EDE6-8CC1-62AF-90412295E94C</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCStrana_agencija_AgId</notNullConstraintName>
+</Column>
+<Column name="AgNaziv" id="B86BD4A7-5537-152A-35CF-E9FF7D21A28C">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Naziv strane agencije]]></commentInRDBMS>
+<generatorID>EA722CCB-CCD9-559B-0FF0-D4E9993D7833</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCStrana_agencija_AgNaziv</notNullConstraintName>
+</Column>
+<Column name="DId" id="DBF8B508-5B3E-2E92-5320-B457C1DF788E">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<generatorID>B05C07E6-D833-80D7-EA6B-062D30BF6869</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3897CE30-6448-FCBD-3306-EE90BA4AA975" referredColumn="BF0CDEBF-D4ED-F3B0-2CBE-5A97798163BD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F933D271-E942-199B-AB3B-98FE4B69E6B3" name="Strana_agencijaPK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:07 UTC</createdTime>
+<generatorID>90471E6E-7C91-987D-2B91-76BB014AEA9E</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1FF8FBF-D954-D32A-DC7C-5A4C03695E2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="17986279-21C8-FF57-4176-B8EC0210412A" name="Strana_agencijaDRFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-26 15:12:08 UTC</createdTime>
+<generatorID>13E33A53-610C-B5BF-63D8-534B61A22297</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBF8B508-5B3E-2E92-5320-B457C1DF788E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
