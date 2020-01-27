@@ -9,7 +9,7 @@
 <referredTableID>7E69273A-394C-20E3-252B-BB29211A928B</referredTableID>
 <keyObject>749661D1-180E-B96C-D1A3-01445646D747</keyObject>
 <referredKeyID>749661D1-180E-B96C-D1A3-01445646D747</referredKeyID>
-<mandatory>false</mandatory>
+<mandatory>true</mandatory>
 <refColNames>DId</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

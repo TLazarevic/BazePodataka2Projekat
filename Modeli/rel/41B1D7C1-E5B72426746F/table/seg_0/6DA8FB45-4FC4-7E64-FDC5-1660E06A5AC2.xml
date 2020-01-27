@@ -4,6 +4,7 @@
 <createdTime>2020-01-26 15:12:07 UTC</createdTime>
 <generatorID>C6030A86-2615-7627-895C-CDCB5BA71135</generatorID>
 <ownerDesignName>Modeli</ownerDesignName>
+<abbreviation>SA</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -39,7 +40,6 @@
 <createdTime>2020-01-26 15:12:07 UTC</createdTime>
 <generatorID>B05C07E6-D833-80D7-EA6B-062D30BF6869</generatorID>
 <ownerDesignName>Modeli</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
