@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="B892FC1A-1663-6EE1-29BB-1E6613AADE12" name="Tip_rakete">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>E7432F98-4ACB-9828-B5FE-C56D30207E5F</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<abbreviation>TR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRId" id="1BF893F7-54A3-B870-C2C8-DD4DD73ED0CC">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>9C5FF86E-4357-71EA-9D6D-1B2304CE54DC</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRNaz" id="9A24D926-B314-82EE-900D-1A88DD6FBF4B">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>526DFF71-919A-C633-8252-D88D9A6C30C3</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRLCena" id="2365134D-7701-7A46-A1DC-8690A22E9FD8">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cena po lansiranju]]></commentInRDBMS>
+<generatorID>93B07063-1C3A-16C0-C565-2CD1C8C457B8</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypeScale>1000000</dataTypeScale>
+<ownDataTypeParameters>,,1000000</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRPonIs" id="E41F36AA-8C5A-5F83-6580-3B90768A702A">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ponovna iskoristivost rakete]]></commentInRDBMS>
+<generatorID>B0129C82-9292-5C9C-F311-AB9C82147632</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8BAC1B6C-EBE6-1C03-2ADC-3523D501E4BA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRKapTer" id="5FCB6D0C-B5FF-E6BE-A96B-5E59635AC83C">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Kapacitet tereta u tonama]]></commentInRDBMS>
+<generatorID>151F6910-F6DA-E6B2-AC36-06B97FFCA89F</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>1000</dataTypeScale>
+<ownDataTypeParameters>,,1000</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A0DD91A4-9FD8-85C7-B8DB-289B3799382B" name="TRPK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>D4E5CEFF-9837-EF71-4521-C9B391F3977E</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BF893F7-54A3-B870-C2C8-DD4DD73ED0CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="41074875-50AF-190A-6C00-0DD36C6DE616" name="FKArc_5">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>26871A34-2119-80F3-F0DD-39BD9274399C</table>
+<discriminatorColumn>8BA94D93-4370-66E2-478A-FDAA156D82F8</discriminatorColumn>
+<fkeys>
+<fkeyID>6504E6F1-8476-2FE1-2AA5-576866A96810</fkeyID>
+<fkeyID>35281CD0-D538-246A-4BF1-43A5152DF385</fkeyID>
+</fkeys>
+</FKArc>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F18D215-CE1F-B854-BD50-8A8398C8E01E" name="Raketa">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>83234CB8-49C6-7CE9-A75E-16E66B8F271B</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<abbreviation>R</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RaId" id="ECCB2E1C-642E-559F-0849-BF4803F514BC">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>43EA8B94-1B3F-CCF1-49B6-431F645E0CD9</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RaDatPro" id="07BAF59D-7FDC-9E36-B0F7-B25A6956F19E">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Datum proizvodnje rakete]]></commentInRDBMS>
+<generatorID>8F46EB33-8A4F-12A6-148E-FD4D73FE083E</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRId" id="AF4E222C-77F8-DA85-6D2C-30B059F773A1">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>023E5EE8-3216-41A8-BD5A-A6F4F0DFA8A7</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F1364E3-10D6-F3FF-0081-4E99A8EE33C2" referredColumn="1BF893F7-54A3-B870-C2C8-DD4DD73ED0CC"/>
+</associations>
+</Column>
+<Column name="RaStat" id="7878412F-A9D6-043C-03E9-66BABB84B975">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>4D1851B5-25CA-4F27-8AF0-F29A70DE3C7D</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F9E83B49-3AE1-0963-94E0-05ED35E2F047</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2EA7C8A-402A-168C-8358-1C3EBABFD496" name="RPK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>262FE5DD-610C-C5D0-CC47-0B09ACCAD757</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECCB2E1C-642E-559F-0849-BF4803F514BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95396E32-017C-1063-42D7-73AC234F2CE7" name="RTRFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>7BB80072-A838-C0A1-D1FF-B0D10B5D7C42</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF4E222C-77F8-DA85-6D2C-30B059F773A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

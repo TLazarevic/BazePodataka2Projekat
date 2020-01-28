@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="703A57AD-C874-5488-5D14-EEC0EBFC5519" name="Astronaut">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>3423D782-E624-DB63-1D98-8E4F9BBE9130</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AgId" id="55CEA1E4-F104-3F78-FF65-77A6BDB91CC5">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>387E995D-8163-95F3-7ACF-D9D0B5DE2039</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EEA1F6A2-6DE1-AA5D-56F1-B8DD48CBC4E9" referredColumn="E7EECAE8-7E9E-50E4-E3E8-F24EA697FCFC"/>
+</associations>
+</Column>
+<Column name="ATip" id="6A1794E4-1215-DB09-9BCA-CD1AB7BB5248">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>03BDAAE5-EFF3-BC3D-2B35-5B0EB29CBC90</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<constraintName>CKAstronaut_ATip</constraintName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>50A6C0EB-B8BE-861C-097C-FD88D8C9FA86</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCAstronaut_ATip</notNullConstraintName>
+</Column>
+<Column name="ZapId" id="988C66D5-F0CF-C98F-5ABA-0187D4D8EF00">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>3B8CA77A-EF1D-B14E-2D28-7EE295040C32</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCAstronaut_ZapId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="35281CD0-D538-246A-4BF1-43A5152DF385" referredColumn="51DEF037-9256-A1AB-0695-27D34992A029"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="470E9D29-B436-28B9-78D8-6057649F9E48" name="AstronautPK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>196CFFED-CB8D-EE85-91D2-04F9E9761E21</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="988C66D5-F0CF-C98F-5ABA-0187D4D8EF00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7A7441A-FCAF-02AE-72C4-B9E7F609374B" name="AstronautZaposleniFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>C8831A0A-1EBA-8EA1-81D7-17D5F35F1034</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="988C66D5-F0CF-C98F-5ABA-0187D4D8EF00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B01C1B0A-F2E8-B4B2-C0EB-FDD9A03261D4" name="AstronautSAFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>9B4A536F-685A-2664-C332-76FE10962C28</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55CEA1E4-F104-3F78-FF65-77A6BDB91CC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

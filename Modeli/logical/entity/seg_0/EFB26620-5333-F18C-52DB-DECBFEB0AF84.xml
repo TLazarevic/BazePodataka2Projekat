@@ -14,6 +14,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>P</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="PId" id="5051139A-A197-5913-CB6B-C1BF394CBBD8">
 <createdBy>DELL</createdBy>
@@ -47,8 +48,9 @@
 <createdBy>DELL</createdBy>
 <createdTime>2020-01-20 21:48:58 UTC</createdTime>
 <ownerDesignName>Modeli</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

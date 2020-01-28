@@ -14,15 +14,16 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<preferredAbbreviation>Mis sa TM</preferredAbbreviation>
+<shortName>MiTM</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="TMId" id="1C402682-6A70-5EAC-1147-3464338CE194">
 <createdBy>DELL</createdBy>
 <createdTime>2020-01-21 20:49:45 UTC</createdTime>
 <generatorID>BC223972-4746-5C81-7D56-9A37521B29F1</generatorID>
 <ownerDesignName>Modeli</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="false"/>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
 </engineerTo>
 <referedAttribute>EE12D151-5E62-0A30-66E3-938C761FF85D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -80,9 +81,8 @@
 <createdTime>2020-01-23 15:36:25 UTC</createdTime>
 <generatorID>1A72176A-5E4F-FBE5-3521-52E406139545</generatorID>
 <ownerDesignName>Modeli</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="false"/>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>166E29D6-CFA9-BE20-7D85-1D3D57D2C80E</referedAttribute>
@@ -113,8 +113,9 @@
 <createdBy>DELL</createdBy>
 <createdTime>2020-01-21 21:05:25 UTC</createdTime>
 <ownerDesignName>Modeli</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="4D2014C6-132C-76E6-C52F-504A4BE562B2" containerWithKeyObject="CC453EBE-CD6D-F1F9-67C5-49D3AE093052" localFKIndex="08D4BCB8-B397-A801-F10D-EB031190FA72" name="CPGRFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>D05EB84F-BD52-BF1F-A056-74FDB3CBBDDC</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<referredTableLongName>Grad</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A31752ED-0C22-D287-F088-EAD3C8A389BB</referredTableID>
+<keyObject>6D527E6F-465D-E365-1ED5-E4A0D988F9A4</keyObject>
+<referredKeyID>6D527E6F-465D-E365-1ED5-E4A0D988F9A4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>GRId,DId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

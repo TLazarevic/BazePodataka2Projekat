@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCDB5E02-97F9-F5E5-1DC2-D34B97E8A153" name="Pista">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>EFB26620-5333-F18C-52DB-DECBFEB0AF84</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<abbreviation>P</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PId" id="6B53A705-7DE0-9DE6-132E-2FC9022672FD">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>5051139A-A197-5913-CB6B-C1BF394CBBD8</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPId" id="31750BF0-9DCE-EE17-085A-EA023A98BB1F">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>CE6B1941-54AB-240D-413D-58CB7FF1E6C9</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A15A7D36-9E03-8BB2-952C-42DD3F7CEF7B" referredColumn="EB3EC71C-97E0-C080-93F3-07EEBF2B85A4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5CA99CF0-3821-1B02-27D2-E2FC5148C83A" name="PPK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>C54E5034-59E7-43C3-4848-D51FD556FA5C</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B53A705-7DE0-9DE6-132E-2FC9022672FD"/>
+<colUsage columnID="31750BF0-9DCE-EE17-085A-EA023A98BB1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20221632-DE92-0B0A-B2FB-28D57DB359D8" name="PCPFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>E80A6720-75C5-3AB2-DE57-F5CCA08B944C</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31750BF0-9DCE-EE17-085A-EA023A98BB1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

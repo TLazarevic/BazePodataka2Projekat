@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="F1D80A81-D48D-2C84-66E9-86AB41F95ADE" name="trosi">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRId" id="BBBEAF31-F8DC-223B-8329-CA603A144055">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74869FD7-A166-8909-E6B5-2648DB1E538A" referredColumn="1BF893F7-54A3-B870-C2C8-DD4DD73ED0CC"/>
+</associations>
+</Column>
+<Column name="GId" id="5D5008E2-0BFC-45D4-6C61-A1A3FD3743FA">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D80521E-4439-BCAE-1D58-ED4CA85F79CF" referredColumn="E94BBC8B-B565-F8B7-75E4-14E0ECDF2278"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C56E289-65D5-47F5-253F-4A433029463F" name="trosiPK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBBEAF31-F8DC-223B-8329-CA603A144055"/>
+<colUsage columnID="5D5008E2-0BFC-45D4-6C61-A1A3FD3743FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D1DB47F-D6E4-76B9-099A-4998637F2DB4" name="trosiTRFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>CDB0DC89-4708-A6DB-2A57-0CF78BEB4C45</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBBEAF31-F8DC-223B-8329-CA603A144055"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3593D56-7503-9F6E-9FED-70690B396376" name="trosiGorFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>CDB0DC89-4708-A6DB-2A57-0CF78BEB4C45</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D5008E2-0BFC-45D4-6C61-A1A3FD3743FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

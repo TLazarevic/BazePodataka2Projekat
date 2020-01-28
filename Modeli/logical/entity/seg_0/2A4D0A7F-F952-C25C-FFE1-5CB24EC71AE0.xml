@@ -14,6 +14,8 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<preferredAbbreviation>Tip misije</preferredAbbreviation>
+<shortName>TM</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="TMId" id="EE12D151-5E62-0A30-66E3-938C761FF85D">
 <createdBy>DELL</createdBy>

@@ -14,6 +14,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>R</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="RaId" id="43EA8B94-1B3F-CCF1-49B6-431F645E0CD9">
 <createdBy>DELL</createdBy>

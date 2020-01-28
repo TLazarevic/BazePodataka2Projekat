@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7BB9FD0-2294-5FBB-CC42-2F56BD003784" name="Piloti_voze_TR">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>A1548A1D-72A4-BFE7-3DF1-CDC3991470DF</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<ordsAlias>piloti_koji_voze_tipove_raketa</ordsAlias>
+<abbreviation>vozi</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRId" id="3B7A3AB7-0953-B945-33ED-909ED4DF3E5A">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>F9FD557A-E4B8-1DE0-890F-D8AEC4E51342</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCvozi_TRId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="1F814E10-775E-FE58-A880-9AE0D0D29110" referredColumn="1BF893F7-54A3-B870-C2C8-DD4DD73ED0CC"/>
+</associations>
+</Column>
+<Column name="ZapId" id="89C7A96E-EB5A-F246-36D1-48747EF6EF38">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>0BB66BDC-D58C-3EE8-7F6C-C8404C2C194E</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCvozi_ZapId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="BE57FE6A-1F48-980E-DBFC-8E3625DA8C37" referredColumn="9B0A5274-6D96-520E-7F16-C562EB1EBC52"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91150952-6A40-055E-C2C4-2770831221CB" name="voziPK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>230CB47D-4059-186C-1E41-668256158697</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89C7A96E-EB5A-F246-36D1-48747EF6EF38"/>
+<colUsage columnID="3B7A3AB7-0953-B945-33ED-909ED4DF3E5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CD82DD4-8AC6-4C1F-DF59-EC0B0814E70C" name="voziPilotFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>C8DE4186-BBD8-8235-C991-AEE4687D13DC</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89C7A96E-EB5A-F246-36D1-48747EF6EF38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B65AFB0A-46D2-CC94-402E-1F87C8DD9F29" name="voziTRFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>311B4F58-2972-BD48-1998-2FE994AA484B</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B7A3AB7-0953-B945-33ED-909ED4DF3E5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

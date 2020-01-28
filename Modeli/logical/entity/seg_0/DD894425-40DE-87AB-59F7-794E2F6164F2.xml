@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DD894425-40DE-87AB-59F7-794E2F6164F2" name="Rakete sa tipovima sa misijama sa tipovima">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DD894425-40DE-87AB-59F7-794E2F6164F2" name="Rakete koje se koriste na misijama">
 <createdBy>DELL</createdBy>
 <createdTime>2020-01-20 23:30:56 UTC</createdTime>
 <ownerDesignName>Modeli</ownerDesignName>
@@ -14,6 +14,8 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<preferredAbbreviation>koristi se</preferredAbbreviation>
+<shortName>koristise</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="RaId" id="03B7DF54-4B51-37AC-0FD9-F316BA562889">
 <createdBy>DELL</createdBy>
@@ -34,8 +36,9 @@
 <createdTime>2020-01-22 21:12:36 UTC</createdTime>
 <generatorID>9842B615-349F-2FC6-FE75-86881944DBFD</generatorID>
 <ownerDesignName>Modeli</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="false"/>
 </engineerTo>
 <referedAttribute>1C402682-6A70-5EAC-1147-3464338CE194</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -57,14 +60,45 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="TRId" id="9F7A7288-2752-6E4E-EF83-2186599FC1F9">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 13:08:19 UTC</createdTime>
+<generatorID>1F0F0A3C-D778-EA7C-B3D8-42DCC2C2DBB2</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7E2BC948-933A-E679-7D59-D199266C0B45</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TMId" id="BA93E559-C2DF-6C4C-37BC-59C49FF83375">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 13:08:19 UTC</createdTime>
+<generatorID>1F0F0A3C-D778-EA7C-B3D8-42DCC2C2DBB2</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<engineerTo>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B64DAC6D-4D67-7A8A-D836-4F2557E71DCE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="CF9FC3D6-3FE9-FBC9-5FE2-7ED39CEF345C" name="Rakete sa tipovima sa misijama sa tipovima PK">
 <createdBy>DELL</createdBy>
 <createdTime>2020-01-21 21:07:08 UTC</createdTime>
 <ownerDesignName>Modeli</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99A134DC-ABBC-7226-6259-FECEDAC89D72" name="AstroUcesMis">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>A1C6B5DB-6DC2-282C-29AF-17ABE9E6994A</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<abbreviation>AstroUcesMis</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TMId" id="0710FC16-21A7-245E-D04C-E4BFE2A4A64F">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>DFB93EE1-3B77-D05F-8ABC-88560BD1A917</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCAstroUcesMis_TMId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="1A6AC097-34F0-BDC9-A241-E06A204B4CC6" referredColumn="05070370-4C5D-8B0F-33B2-0A6E30ACFFB4"/>
+<colAssociation fkAssociation="EADC2F17-92B3-953B-F2DE-B63EB7D605C2" referredColumn="41C9B74D-3EC9-DE9F-2095-AC9C06FF525A"/>
+</associations>
+</Column>
+<Column name="ZapId" id="E0BBF5AF-107D-B08A-814E-2602CA8A50BC">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>992273C3-C9F7-4D71-52DC-ED6401636F48</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCAstroUcesMis_ZapId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="1A6AC097-34F0-BDC9-A241-E06A204B4CC6" referredColumn="B8EA2E80-DA50-8A20-B6ED-5D1B97921D32"/>
+</associations>
+</Column>
+<Column name="MId" id="3E9FD045-6752-C7EC-77FF-E64884E7B5DF">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>AB5D0FC4-D51E-99F2-4FE8-D53E8CC74E24</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCAstroUcesMis_MId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="EADC2F17-92B3-953B-F2DE-B63EB7D605C2" referredColumn="C99B21CE-3466-189E-84C3-55C90D209BDE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EFA0C3AD-CAC8-5A0A-C93B-F3A316065810" name="AstroUcesMisPK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>030E2F46-C627-B5DE-C223-F433417436B5</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0710FC16-21A7-245E-D04C-E4BFE2A4A64F"/>
+<colUsage columnID="E0BBF5AF-107D-B08A-814E-2602CA8A50BC"/>
+<colUsage columnID="3E9FD045-6752-C7EC-77FF-E64884E7B5DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5722196-81AF-3312-DC28-CEBA138B63C8" name="AstroUcesMisAstroOTMFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>686A38FB-1A8B-26CC-C4A5-52E66B928CAB</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0710FC16-21A7-245E-D04C-E4BFE2A4A64F"/>
+<colUsage columnID="E0BBF5AF-107D-B08A-814E-2602CA8A50BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9ECEDBC0-F16C-F8E3-4F8E-C3F8457B09AB" name="AstroUcesMisMiTMFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>D69E7062-BA0C-991A-84CE-66FCA79333CA</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0710FC16-21A7-245E-D04C-E4BFE2A4A64F"/>
+<colUsage columnID="3E9FD045-6752-C7EC-77FF-E64884E7B5DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

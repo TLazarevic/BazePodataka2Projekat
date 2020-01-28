@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="BE57FE6A-1F48-980E-DBFC-8E3625DA8C37" containerWithKeyObject="B7BB9FD0-2294-5FBB-CC42-2F56BD003784" localFKIndex="5CD82DD4-8AC6-4C1F-DF59-EC0B0814E70C" name="voziPilotFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>C8DE4186-BBD8-8235-C991-AEE4687D13DC</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<referredTableLongName>Pilot</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6AB3B819-4B19-814A-0B52-8F41240555B8</referredTableID>
+<keyObject>7B564E63-2A80-5EB3-1431-57D803B469B3</keyObject>
+<referredKeyID>7B564E63-2A80-5EB3-1431-57D803B469B3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Zap_ZapId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

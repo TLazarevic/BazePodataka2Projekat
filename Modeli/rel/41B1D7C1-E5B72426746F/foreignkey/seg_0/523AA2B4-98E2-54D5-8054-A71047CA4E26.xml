@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="523AA2B4-98E2-54D5-8054-A71047CA4E26" containerWithKeyObject="D6ACA95B-EEB5-D4FB-754E-CB09AEF34885" localFKIndex="F2FEDD7F-E079-AC80-EEF2-7CA0692E22ED" name="AstroOTMTMFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>AB2B4679-0445-F55D-6316-AE215F840E6B</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<referredTableLongName>Tip misije</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>82952B8E-3AEF-B83A-4257-393770816ECB</referredTableID>
+<keyObject>C9633340-07A2-02B7-97FC-C0A1E44867D8</keyObject>
+<referredKeyID>C9633340-07A2-02B7-97FC-C0A1E44867D8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TMId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="79500CAF-5970-5C5B-FD1B-64F8F87255DE" name="Tip rakete sa tipom misije za koji je namenjena">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="79500CAF-5970-5C5B-FD1B-64F8F87255DE" name="Je namenjena">
 <createdBy>DELL</createdBy>
 <createdTime>2020-01-20 23:34:29 UTC</createdTime>
 <ownerDesignName>Modeli</ownerDesignName>
@@ -14,6 +14,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>jeNamenjena</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="TMId" id="B64DAC6D-4D67-7A8A-D836-4F2557E71DCE">
 <createdBy>DELL</createdBy>
@@ -49,8 +50,9 @@
 <createdBy>DELL</createdBy>
 <createdTime>2020-01-21 21:05:12 UTC</createdTime>
 <ownerDesignName>Modeli</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

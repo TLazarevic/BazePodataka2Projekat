@@ -14,6 +14,8 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<preferredAbbreviation>Strana agencija</preferredAbbreviation>
+<shortName>SA</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="AgId" id="DF81E989-EDE6-8CC1-62AF-90412295E94C">
 <createdBy>DELL</createdBy>

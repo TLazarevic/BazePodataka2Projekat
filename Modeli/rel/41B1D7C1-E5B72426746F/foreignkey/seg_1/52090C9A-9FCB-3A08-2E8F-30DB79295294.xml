@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="52090C9A-9FCB-3A08-2E8F-30DB79295294" containerWithKeyObject="CCCBC455-9172-D839-2451-BFC057441DC5" localFKIndex="C9582FB2-AF96-787B-3BC1-D2377C61B48E" name="MiTMAstroUcesMisFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>1A72176A-5E4F-FBE5-3521-52E406139545</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<referredTableLongName>AstroUcesMis</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>99A134DC-ABBC-7226-6259-FECEDAC89D72</referredTableID>
+<keyObject>EFA0C3AD-CAC8-5A0A-C93B-F3A316065810</keyObject>
+<referredKeyID>EFA0C3AD-CAC8-5A0A-C93B-F3A316065810</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>TMId,Zap_ZapId,MId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

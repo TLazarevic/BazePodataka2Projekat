@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="6504E6F1-8476-2FE1-2AA5-576866A96810" containerWithKeyObject="6AB3B819-4B19-814A-0B52-8F41240555B8" localFKIndex="1FDE2673-3AD5-490C-77DD-8310DA27514B" name="PilotZaposleniFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>4784FB13-450B-BE97-96EB-411D1EFD54E8</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<referredTableLongName>Zaposleni</referredTableLongName>
+<arc>41074875-50AF-190A-6C00-0DD36C6DE616</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>26871A34-2119-80F3-F0DD-39BD9274399C</referredTableID>
+<keyObject>ABE3C749-2F9F-4563-0A02-9625681077E1</keyObject>
+<referredKeyID>ABE3C749-2F9F-4563-0A02-9625681077E1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ZapId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Pilot</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

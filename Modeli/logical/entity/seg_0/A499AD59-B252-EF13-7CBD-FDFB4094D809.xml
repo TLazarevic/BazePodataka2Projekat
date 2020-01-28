@@ -14,6 +14,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>Gor</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="GId" id="ADEDA9F8-447B-35A7-43BF-F2FAED085B2B">
 <createdBy>DELL</createdBy>

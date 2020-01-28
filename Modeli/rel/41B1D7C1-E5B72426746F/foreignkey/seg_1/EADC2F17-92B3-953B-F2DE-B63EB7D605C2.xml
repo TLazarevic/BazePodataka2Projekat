@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="EADC2F17-92B3-953B-F2DE-B63EB7D605C2" containerWithKeyObject="99A134DC-ABBC-7226-6259-FECEDAC89D72" localFKIndex="9ECEDBC0-F16C-F8E3-4F8E-C3F8457B09AB" name="AstroUcesMisMiTMFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>D69E7062-BA0C-991A-84CE-66FCA79333CA</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<referredTableLongName>Mis sa TM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CCCBC455-9172-D839-2451-BFC057441DC5</referredTableID>
+<keyObject>413994DF-401F-31DA-2805-A10496439729</keyObject>
+<referredKeyID>413994DF-401F-31DA-2805-A10496439729</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TMId,MId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

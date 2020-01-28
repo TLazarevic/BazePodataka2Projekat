@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8292902-0994-8577-A0D6-3344EBDA7377" name="organizuje">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MId" id="3D4F4C23-B653-BAF3-86C6-18B6638302D4">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02A28798-F940-48AA-EAA5-19ED1FE876F2" referredColumn="DC32CE15-62D9-A503-A59A-8E0A9F8E292C"/>
+</associations>
+</Column>
+<Column name="CPId" id="7A257595-6EFD-DEBC-C9B4-2C0C86B4C00C">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CB7FB3D-BD8F-7D99-9185-9BAA2054C6ED" referredColumn="EB3EC71C-97E0-C080-93F3-07EEBF2B85A4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9242E0FA-CE36-5F3D-9674-86C2F1EBE9C9" name="organizujePK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D4F4C23-B653-BAF3-86C6-18B6638302D4"/>
+<colUsage columnID="7A257595-6EFD-DEBC-C9B4-2C0C86B4C00C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CDBC9CD-1FD9-1B43-236B-013E6A41849C" name="organizujeMFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>E8DABBE8-E047-A68D-689A-414029CFD89D</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D4F4C23-B653-BAF3-86C6-18B6638302D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3D09FD2-F7E2-3743-1C3D-6F0B45C447CB" name="organizujeCPFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>E8DABBE8-E047-A68D-689A-414029CFD89D</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A257595-6EFD-DEBC-C9B4-2C0C86B4C00C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -14,6 +14,7 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<shortName>vozi</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="TRId" id="F9FD557A-E4B8-1DE0-890F-D8AEC4E51342">
 <createdBy>DELL</createdBy>
@@ -49,8 +50,9 @@
 <createdBy>DELL</createdBy>
 <createdTime>2020-01-21 21:41:39 UTC</createdTime>
 <ownerDesignName>Modeli</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="true"/>
+<item key="41B1D7C1-3215-DC4F-C818-E5B72426746F" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

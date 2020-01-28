@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="33411213-AE68-2EBC-79D0-145D73C1A065" containerWithKeyObject="26871A34-2119-80F3-F0DD-39BD9274399C" localFKIndex="B6223803-F842-349F-9865-B9F4CAEDD160" name="ZaposleniCPFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>E7E4EB5F-F7AC-AC30-65F1-C03B9E98867A</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<referredTableLongName>Centri_i_postrojenja</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CC453EBE-CD6D-F1F9-67C5-49D3AE093052</referredTableID>
+<keyObject>755CA3E7-EEF4-ADEC-A7FC-48AD10568E5F</keyObject>
+<referredKeyID>755CA3E7-EEF4-ADEC-A7FC-48AD10568E5F</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CPId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

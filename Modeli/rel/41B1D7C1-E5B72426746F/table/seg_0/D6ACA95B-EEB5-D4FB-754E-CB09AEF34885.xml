@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6ACA95B-EEB5-D4FB-754E-CB09AEF34885" name="Astro_obuceni_za_TM">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>1E1F16D2-AFD6-FDDE-6B0A-7C4088B75F33</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<ordsAlias>astroobuctm</ordsAlias>
+<abbreviation>AstroOTM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ZapId" id="B8EA2E80-DA50-8A20-B6ED-5D1B97921D32">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>BD1FBBDB-868B-B8F9-6FC6-E9855F4F71F1</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCAstroOTM_ZapId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="77C0AA97-8964-EB29-3A22-F1AF874DED32" referredColumn="988C66D5-F0CF-C98F-5ABA-0187D4D8EF00"/>
+</associations>
+</Column>
+<Column name="TMId" id="05070370-4C5D-8B0F-33B2-0A6E30ACFFB4">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>CAF29AD4-63BB-220B-BFBA-A7EB6C2B3FA1</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNCAstroOTM_TMId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="523AA2B4-98E2-54D5-8054-A71047CA4E26" referredColumn="E7A35520-50BE-6237-5CF3-59D92A3BE584"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F99E07F-D14A-6EE4-809C-3FC4F56CB7A4" name="AstroOTMPK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>EC89C3AC-A8E8-5CAF-577D-D59B48952CA5</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05070370-4C5D-8B0F-33B2-0A6E30ACFFB4"/>
+<colUsage columnID="B8EA2E80-DA50-8A20-B6ED-5D1B97921D32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2FEDD7F-E079-AC80-EEF2-7CA0692E22ED" name="AstroOTMTMFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>AB2B4679-0445-F55D-6316-AE215F840E6B</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05070370-4C5D-8B0F-33B2-0A6E30ACFFB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A6BBBB7-C794-C4D0-035B-950D217B5A64" name="AstroOTMAstronautFK">
+<createdBy>DELL</createdBy>
+<createdTime>2020-01-28 16:15:08 UTC</createdTime>
+<generatorID>2B3B1097-3C70-238C-3306-0371D1CA8E47</generatorID>
+<ownerDesignName>Modeli</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8EA2E80-DA50-8A20-B6ED-5D1B97921D32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
